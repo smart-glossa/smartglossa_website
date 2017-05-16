@@ -1,148 +1,226 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
+
+<style type="text/css">
+		
+		body {
+  font-family: arial;
+  font-size: 12px;
+  color: #666;
+}
+form {
+  width: 500px;
+  background: white;
+  padding: 20px 25px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+}
+form input,
+form textarea {
+  font: inherit;
+  padding: 5px 5px;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+form button {
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 8px 35px;
+  font-size: 12px;
+  background: #888;
+  color: white;
+}
+form label {
+  color: #777;
+  font-size: 11px;
+  margin-bottom: 2px;
+  display: block;
+}
+	</style>
+
 	<title>SMARTGLOSSA</title>
-	<link rel="icon" type="image/gif/png" href="images/SG.jpg">
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   
-    <meta  name="description" content="Training | Training in Noida, Delhi/NCR, Javatpoint offers best hadoop training, java training, sap training, php training, .net training, android training, oracle training, software testing training, python training, seo training, c training, c++ training, web designing training with live projects for ghaziabad, noida, delhi or ncr students."/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+	
+	
+	<link rel="icon" type="image/jpg/png" href="images/SG.jpg">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <link rel="shortcut icon" href="images/favicon.png"/>
-    <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet"/>
-    <link href="bootstrap.css" rel="stylesheet"/>
-    
-    <style>
-        
-        h1{text-transform:none;font-size:30px;}
-        h2{text-transform:none;font-size:24px;color:orange}
-        p{font-weight: 100;
-          font-family: verdana;
-          line-height: 20px;
-        
-          height:120px; 
-        }
-          .img{
-           width:120px;
-        }
-       h5{
-        margin-top:40px;
-        margin-left:-50px; 
-       }
-        textarea{
-            resize: none;
+	<meta  name="description" content="Training | Training in Noida, Delhi/NCR, Javatpoint offers best hadoop training, java training, sap training, php training, .net training, android training, oracle training, software testing training, python training, seo training, c training, c++ training, web designing training with live projects for ghaziabad, noida, delhi or ncr students."/>
 
-        }
-        .img-responsive{
-            width:216px;
-            height: 90px; 
-        }
-      h6{
-        color:#fff;
-      } 
-     header{
-        width:100%;
-        height:10%;
-        background-color:white;
-        color:lightgreen;
-     }
-     .wel{
-        margin-top:-75px;
-        margin-left:0px;
-     }
-     .tel{
-        margin-top: 38px;
-     }
-     #mar{
-        font-size:30px;
-         color:blue;
-     }
-     .ht{
-        width:900px;
-     }
-     #small{
-      width:90px;
+	<!-- <link rel="shortcut icon" href="images/favicon.png"/>-->
+	<!-- Main Stylesheet -->
+	<link href="css/style.css" rel="stylesheet"/>
+	<link href="bootstrap.css" rel="stylesheet"/>
+	<!-- hide and show in readmore-->
 
-     }
-     .topimage{
-     	bottom: 0px;
-     	position: absolute;
-     	left: 170px;
-     	width:940px ;
-     	height:65px;
-     }
-     .toparrow{
-     	position:absolute;
-     	bottom: 0px;
-     	right: 0px;
-     }
-     .facebook_logo{
-     	position: absolute;
-     	left: 1050px;
-     	width:25px; 
-     	height:25px;
-     	bottom: 20px;
 
-     }
-     .twitter_logo{
-     	position: absolute;
-     	left: 1080px;
-     	width:35px; 
-     	height:35px;
-     	bottom: 16px;
+	<style>
 
-     }
-     .git_logo{
-     	position: absolute;
-     	left: 1110px;
-     	width:48px; 
-     	height:28px;
-     	bottom: 20px;
+		h1{text-transform:none;font-size:30px;}
+		h2{text-transform:none;font-size:24px;color:orange}
+		p{font-weight: 100;
+			font-family: verdana;
+			line-height: 20px;
 
-     }
-     .jd_logo{
-     	position: absolute;
-     	left: 1160px;
-     	width:27px; 
-     	height:27px;
-     	bottom: 21px;
+			height:120px;
+		}
+		.img{
+			width:120px;
+		}
+		h5{
+			margin-top:40px;
+			margin-left:-50px;
+		}
+		textarea{
+			resize: none;
 
-     }
-    </style>
-    </head>
-	<body id="homepage">
+		}
+		.img-responsive{
+			width:216px;
+			height: 90px;
+		}
+		h6{
+			color:#fff;
+		}
+		header{
+			width:100%;
+			height:10%;
+			background-color:white;
+			color:lightgreen;
+		}
+		.wel{
+			margin-top:-68px;
+			margin-left:10px;
+		}
+		.tel{
+			margin-top: 38px;
+		}
+		#mar{
+			font-size:30px;
+			color:blue;
+		}
+		.ht{
+			width:900px;
+		}
+		#small{
+			width:90px;
 
-		<div id="home"></div>
-        <!-- ========== HEADER START ========== -->
-        <div id="page" class="hfeed site">
+		}
+		.topimage{
+			bottom: 0px;
+			position: absolute;
+			left: 170px;
+			width:940px ;
+			height:65px;
+		}
+		.toparrow{
+			position:absolute;
+			bottom: -6px;
+			right: -7px;
+		}
+		.facebook_logo{
+			position: absolute;
+			left: 1040px;
+			width:32px;
+			height:32px;
+			bottom: 16px;
 
-    <!--<div class="preloader"></div>-->
+		}
+		.twitter_logo{
+			position: absolute;
+			left: 1080px;
+			width:32px;
+			height:32px;
+			bottom: 16px;
 
-    <header id="masthead" class="site-header" role="banner">
-        <div class="site-header-head clearfix">
-            <div class="container header-user h-card">
-                <div class="header-user-name pull-left">
-                    <img  class="wel" src="images/logo1.png"/>
-                    <span class="p-name welcome-text" id="mar"><img src="images/fontlogo.png" class="topimage"><!--SMARTGLOSSA INSTITUTE-PUDUKKOTTAI--></span>
-                    <a href="https://www.facebook.com/search/pages/?q=smartglossa" target="black">
-                    <img src="images/facebook_logo.png" class="facebook_logo"></a>
-                    <a href="https://twitter.com/SmartGlossa" target="black">
+		}
+		.git_logo{
+			position: absolute;
+			left: 1110px;
+			width:45px;
+			height:25px;
+			bottom: 20px;
+
+		}
+		.jd_logo{
+			position: absolute;
+			left: 1160px;
+			width:24px;
+			height:24px;
+			bottom: 21px;
+
+		}
+		/*hide and show*/
+
+		.button{
+    -moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;
+    -moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);-webkit-box-shadow:0 1px  1px rgba(0, 0, 0, 0.2);box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
+    background:#eee;
+    border:0;
+    color:#333;
+    cursor:pointer;
+    font-family:"Lucida Grande",Helvetica,Arial,Sans-Serif;
+    margin:0;padding:6px 4px;
+    text-decoration:none;
+    position:relative
+}
+.example1 p, .example2 p{
+    border:1px solid #eee;background:#eee;
+    -moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;
+    width:400px;
+    padding:10px;
+    margin:10px 0
+}
+
+	</style>
+
+</head>
+
+<body id="homepage">
+
+	<div id="home"></div>
+	<!-- ========== HEADER START ========== -->
+	<div id="page" class="hfeed site">
+
+		<!--<div class="preloader"></div>-->
+
+		<header id="masthead" class="site-header" role="banner">
+
+			<div class="site-header-head clearfix">
+
+				<div class="container header-user h-card">
+					<div class="header-user-name pull-left">
+
+						<img  class="wel" src="images/logo1.png"/>
+						<span class="p-name welcome-text" id="mar"><img src="images/smart font.png" class="topimage"><!--SMARTGLOSSA INSTITUTE-PUDUKKOTTAI--></span>
+
+					
+               <a href="https://www.facebook.com/smartglossapage" target="block">
+                    <img src="images/facebook.png" class="facebook_logo"  ></a>
+                    <a href="https://twitter.com/SmartGlossa" target="block">
                     <img src="images/twitter_logo.png" class="twitter_logo"></a>
-                    <a href="https://github.com/smart-glossa" target="black">
+                    <a href="https://github.com/smart-glossa" target="block">
                     <img src="images/git_logo.png" class="git_logo"></a>
-                    <a href="https://www.justdial.com/Pudukkottai/SmartGlossa-Pudukkottai-HO/9999P4322-4322-161231110002-Y8D1_BZDET" target="black">
-                     <img src="images/jd_logo.png" class="jd_logo"></a>
-                   <!-- <i class="fa fa-" ><img  id="small"src="images/images.jpg"></i>-->
+                    <a href="https://www.justdial.com/Pudukkottai/SmartGlossa-Pudukkottai-HO/9999P4322-4322-161231110002-Y8D1_BZDET" target="block">
+                    	<img src="images/jd_logo.png" class="jd_logo"></a>
+                    	<!-- <i class="fa fa-" ><img  id="small"src="images/images.jpg"></i>-->
+                    </div>
+
+
                 </div>
-               
-                
             </div>
-        </div>
-        
-    </header>
-			<!-- ==== NAVBAR START ==== -->
+
+        </header>
+        <!-- ==== NAVBAR START ==== -->
 			<!--<div class="navbar navbar-default navbar-static-top" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
@@ -154,391 +232,505 @@
 				</div>
 			</div>-->
 			<!-- ==== NAVBAR END ==== -->
-		<!-- ========== HEADER END ========== -->
-        <!-- ========== BANNER START ========== -->
-        <div id="slides">
-			<div class="slides-container">
-                <img   src="images/slide.gif" alt="2" />   
-				<img src="images/banner12.jpg" alt="banner 1" />	
-                <img src="images/banner1.jpg" alt="banner 2" />
+			<!-- ========== HEADER END ========== -->
+			<!-- ========== BANNER START ========== -->
+			<div id="slides">
+				<div class="slides-container">
+					<img   src="images/Web_Design_and_Development.png" alt="2" />
+					<img src="images/banner12.jpg" alt="banner 1"  />
+					<img src="images/banner1.jpg" alt="banner 2" />
+					<img src="images/Graphic-Design-Courses.jpg" alt="banner 3"  width="1400" />
+				</div>
+
+				<div class="tint">
+
+					<!-- SLIDER OFFERS END -->
+
+					<a class="arrow" href="#welcome"><img src="images/down-arrow-icon-56966.png" width="64" height="63" class="toparrow">
+						<i class="fa fa-arrow-down fa-2x"></i>
+					</a>
+				</div>
 			</div>
+			<!-- ========== FEATURED TEACHERS START ========== -->
+			<div class="container-fluid">
+				<div style="background-color:#669966;color:white;padding:25px;height:100px;border-radius:3px;">
+					<div class="col-sm-12 text-center" data-scroll-reveal>
+						<h2 class="carousel-title text-center" style="color:white; font-family:Blippo, fantasy; font-style: italic;">
+							OUR POPULAR COURSES
 
-			<div class="tint">
+						</h2>
+					</div>
+				</div>
+			</div>
+			<section id="featured-teachers">
 
-			<!-- SLIDER OFFERS END -->
+				<div id="welcome">
 
-			<a class="arrow" href="#welcome"><img src="images/iconlog.png" width="50" height="50" class="toparrow">
-				<i class="fa fa-arrow-down fa-2x"></i>
-			</a>
-		      </div>
+					<div class="container">
+						<!-- OWL CAROUSEL START -->
+						<div class="row text-center">
+
+							<div class="col-sm-3">
+								<img src="images/java.jpg" alt="Java training" class="img-responsive" />
+								<div class="description">
+									<h3>JAVA/J2EE</h3>
+									<p>Smartglossa is providing training on various technologies.One of them is java training.</p>
+									<h4 >Rs:6500</h4>
+
+									<a href="course.html" target="_self"> <span class="btn btn-primary"><h6>Read More</h6> </span></a>
+
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<img src="images/web_designing.jpg" alt="Web Designing Training" class="img-responsive" />
+								<div class="description">
+									<h3>WEB DESIGNING</h3>
+									<p>Smartglossa provides best Web Designing training in region.For website</p>
+									<h4>Rs:5000</h4>
+									<a href="intex.html"><span class="btn btn-primary"><h6>Read More</h6> </span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<img src="images/cc++.jpg" alt="C and C++ training" class="img-responsive" />
+								<div class="description">
+									<h3>C/C++</h3>
+									<p>Smartglossa provides best C/C++ training in  region.</p>
+									<h4>Rs:4500</h4>
+									<a href="cprograming.html"><span class="btn btn-primary"><h6>Read More</h6> <i class="fa fa-angle-right"></i></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<img src="assets/images/mysql.png" alt="Web Designing Training" class="img-responsive" />
+								<div class="description">
+									<h3>Mysql</h3>
+									<p>Smartglossa provides best training  for Data storages and entries use servers.</p>
+									<h4>Rs:3500</h4>
+									<a href="mysql.html"><span class="btn btn-primary"><h6>Read More</h6> <i class="fa fa-angle-right"></i></span></a>
+								</div>
+							</div>
+
+						</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="assets/images/frntendtech.png" alt="C and C++ training" class="img-responsive" />
+								<div class="description">
+									<h3>FRONT-END DEVELOPMENT</h3>
+									<p>Smartglossa provides best html/css/javascript/bootstrap training in region.</p>
+									<h4>Rs:7500</h4>
+									<a href="frondend.html"><span class="btn btn-primary"><h6>Read More</h6> <i class="fa fa-angle-right"></i></span></a>
+								</div>
+							</div>
+
+							<div class="col-sm-3">
+								<img src="assets/images/backend123.png" alt="SAP training" class="img-responsive" />
+								<div class="description">
+									<h3>BACK-END DEVELOPMENT</h3>
+									<p>Smartglossa provides best Backend Development training in region.</p>
+									<h4>Rs:9000</h4>
+									<a href=""><span class="btn btn-primary"><h6>Read More</h6> <i class="fa fa-angle-right"></i></span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<img src="assets/images/Fullstack.png" alt="SEO training" class="img-responsive" />
+								<div class="description">
+									<h3>FULL-STACK DEVELOPMENT</h3>
+									<p>Smartglossa  provides best Fullstack Development training in region.
+									</p>
+									<h4 >Rs:7000</h4>
+									<a href="fullstrak.html"><span class="btn btn-primary"><h6>Read More </h6><i class="fa fa-angle-right"></i></span></a>
+								</div>
+							</div>
+
+							<div class="col-sm-3">
+								<img src="assets/images/JS-AJS.png" alt="Web Designing Training" class="img-responsive" />
+								<div class="description">
+									<h3>JAVASCRIPT&<br>ANGULAR js</h3>
+									<p>Smartglossa provides best Web Designing training in region.For website</p>
+									<h4>Rs:5000</h4>
+									<a href="intex.html"><span class="btn btn-primary"><h6>Read More</h6> </span></a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="assets/images/hcb.png" alt="Web Designing Training" class="img-responsive" />
+								<div class="description">
+									<h3>HTML&CSS<br>Bootstrap</h3>
+									<p>Smartglossa provides best Web Designing training in region.For website</p>
+									<h4>Rs:3500</h4>
+									<a href="intex.html"><span class="btn btn-primary"><h6>Read More,</h6> </span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<img src="images/android.jpg" alt="Android training" class="img-responsive" />
+								<div class="description">
+									<h3>ANDROID</h3>
+									<p>Android is a high level language, which is widely used for general purpose programming.</p>
+									<h4>Rs:10000</h4>
+									<a href=""><span class="btn btn-primary"><h6>Read More</h6> </span></a>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<img src="images/bigdata.jpg" alt="Hadoop training" class="img-responsive" />
+								<div class="description">
+									<h3>HADOOP</h3>
+									<p>Hadoop is a high level language, which is widely used for general purpose programming.</p>
+									<!--<h4 >Rs:4000</h4>-->
+									<a href="hadoop.html" target="_self"><span class="btn btn-primary"><h6>Coming Soon</h6></span></a>
+								</div>
+							</div>
+
+							<div class="col-sm-3">
+								<img src="images/php.jpg" alt="PHP training" class="img-responsive" />
+								<div class="description">
+									<h3>PHP</h3>
+									<p>PHP is a high level language, which is widely used for general purpose programming.</p>
+									<!--<h4 >Rs:5000</h4>-->
+									<a href="#"><span class="btn btn-primary"><h6>Coming Soon</h6> </span></a>
+								</div></div>
+							</div>
+							<div class="row">
+								<div class="col-sm-3">
+									<img src="images/python.jpg" alt="Python training" class="img-responsive" />
+									<div class="description">
+										<h3>PYTHON</h3>
+										<p>Python is a high level language, which is widely used for general purpose programming.</p>
+										<!--<h4 >Rs:4500</h4>-->
+										<a href="#"> <span class="btn btn-primary"><h6>Coming Soon</h6></span></a>
+									</div></div>
+
+									<!-- OWL CAROUSEL END -->
+								</div>
+								<div class="container">
+ <!-- <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>-->
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">SMARTGLOSSA</h4>
         </div>
-        <!-- ========== FEATURED TEACHERS START ========== -->
-<div class="container-fluid">
-<div style="background-color:#669966;color:white;padding:25px;height:100px;border-radius:3px;">
-               <div class="col-sm-12 text-center" data-scroll-reveal>
-                <h2 class="carousel-title text-center" style="color:white;">
-                  OUR POPULAR COURSES 
-             
-                </h2>
-               </div>
-            </div>
+        <div class="modal-body">
+
+<!-- header -->
+<div id="headerdemo">
+
+    <!-- navigation -->
+
+    <!-- /navigation -->
+
+    <div class="clear"></div>
 </div>
-        <section id="featured-teachers">
-        
-        <div id="welcome">
-        
-            <div class="container">
-                            <!-- OWL CAROUSEL START -->
-                <div class="row text-center">
-                    
-                        <div class="col-sm-3">
-                            <img src="images/java.jpg" alt="Java training" class="img-responsive" />
-                            <div class="description">
-                                <h3>JAVA/J2EE</h3>
-                                <p>Smartglossa is providing training on various technologies.One of them is java training.</p>
-                                
-                                 <a href="course.html" target="_self"> <span class="btn btn-primary"><h6>Read More</h6> </span></a>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                        <img src="images/web_designing.jpg" alt="Web Designing Training" class="img-responsive" />
-                        <div class="description">
-                            <h3>WEB DESIGNING</h3>
-                            <p>Smartglossa provides best Web Designing training in region.For website</p>
-                            
-                            <a href="intex.html"><span class="btn btn-primary"><h6>Read More</h6> </span></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="images/cc++.jpg" alt="C and C++ training" class="img-responsive" />
-                        <div class="description">
-                            <h3>C/C++</h3>
-                            <p>Smartglossa provides best C/C++ training in  region.</p>
-                            
-                            <a href="cprograming.html"><span class="btn btn-primary"><h6>Read More</h6> <i class="fa fa-angle-right"></i></span></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="assets/images/mysql.png" alt="Web Designing Training" class="img-responsive" />
-                        <div class="description">
-                            <h3>Mysql</h3>
-                            <p>Smartglossa provides best training  for Data storages and entries use servers.</p>
-                            
-                            <a href="mysql.html"><span class="btn btn-primary"><h6>Read More</h6> <i class="fa fa-angle-right"></i></span></a>
-                        </div>
-                    </div>
-                   
-                    </div>
-                <div class="row">                   
-					<div class="col-sm-3">
-                        <img src="assets/images/frntendtech.png" alt="C and C++ training" class="img-responsive" />
-                        <div class="description">
-                            <h3>FRONT-END DEVELOPMENT</h3>
-                            <p>Smartglossa provides best html/css/javascript/bootstrap training in region.</p>
-                                 
-                            <a href="frondend.html"><span class="btn btn-primary"><h6>Read More</h6> <i class="fa fa-angle-right"></i></span></a>
-                        </div>
-                    </div>
-					
-                    <div class="col-sm-3">
-                        <img src="assets/images/backend123.png" alt="SAP training" class="img-responsive" />
-                        <div class="description">
-                            <h3>BACK-END DEVELOPMENT</h3>
-                            <p>Smartglossa provides best Backend Development training in region.</p>
-                                 
-                            <a href=""><span class="btn btn-primary"><h6>Read More</h6> <i class="fa fa-angle-right"></i></span></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                       <img src="assets/images/Fullstack.png" alt="SEO training" class="img-responsive" />
-                        <div class="description">
-                            <h3>FULL-STACK DEVELOPMENT</h3>
-                            <p>Smartglossa  provides best Fullstack Development training in region.
-                            </p>
-                                 
-                            <a href="fullstrak.html"><span class="btn btn-primary"><h6>Read More </h6><i class="fa fa-angle-right"></i></span></a>
-                        </div>
-                    </div>
+<!-- /header -->
 
-                   <div class="col-sm-3">
-                        <img src="assets/images/JS-AJS.png" alt="Web Designing Training" class="img-responsive" />
-                        <div class="description">
-                            <h3>JAVASCRIPT&<br>ANGULAR js</h3>
-                            <p>Smartglossa provides best Web Designing training in region.For website</p>
-                            
-                            <a href="intex.html"><span class="btn btn-primary"><h6>Read More</h6> </span></a>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="row">
-                    <div class="col-sm-3">
-                        <img src="assets/images/hcb.png" alt="Web Designing Training" class="img-responsive" />
-                        <div class="description">
-                            <h3>HTML&CSS<br>Bootstrap</h3>
-                            <p>Smartglossa provides best Web Designing training in region.For website</p>
-                            
-                            <a href="intex.html"><span class="btn btn-primary"><h6>Read More,</h6> </span></a>
-                        </div>
-                    </div>
-                   <div class="col-sm-3">
-                        <img src="images/android.jpg" alt="Android training" class="img-responsive" />
-                        <div class="description">
-                            <h3>ANDROID</h3>
-                            <p>Android is a high level language, which is widely used for general purpose programming</p>
-                            
-                            <a href=""><span class="btn btn-primary"><h6>Read More</h6> </span></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                            <img src="images/bigdata.jpg" alt="Hadoop training" class="img-responsive" />
-                            <div class="description">
-                                <h3>HADOOP</h3>
-                                <p>Hadoop is a high level language, which is widely used for general purpose programming.</p>
-                                 <!--<h4 >Rs:4000</h4>-->
-                               <a href="hadoop.html" target="_self"><span class="btn btn-primary"><h6>Coming Soon</h6></span></a>
-                            </div>
-                            </div>
+<div>
+        <!-- Start WOWSlider.com BODY section -->
 
-                            <div class="col-sm-3">
-                            <img src="images/php.jpg" alt="PHP training" class="img-responsive" />
-                            <div class="description">
-                                <h3>PHP</h3>
-                                    <p>PHP is a high level language, which is widely used for general purpose programming.</p>
-                                     <!--<h4 >Rs:5000</h4>-->
-                                   <a href="#"><span class="btn btn-primary"><h6>Coming Soon</h6> </span></a>
-                            </div></div>
-                             </div>
-                       <div class="row">
-                        <div class="col-sm-3">
-                        <img src="images/python.jpg" alt="Python training" class="img-responsive" />
-                        <div class="description">
-                            <h3>PYTHON</h3>
-                            <p>Python is a high level language, which is widely used for general purpose programming.</p>
-                             <!--<h4 >Rs:4500</h4>-->
-                            <a href="#"> <span class="btn btn-primary"><h6>Coming Soon</h6></span></a>
-                        </div></div>
-                  
-            <!-- OWL CAROUSEL END -->
-         </div> 
-        </section>
-        <!-- ========== FEATURED TEACHERS END ========== -->
-	<!-- ========== LINKS START ========== -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
 
-		<script type="text/javascript">  
-function validateform(){  
-var name=document.contactform.Name.value;  
-var mobile=document.contactform.Mobile.value;  
-var email=document.contactform.Email.value;
-var course=document.contactform.Course.value;
- if (name==null || name==""){  
-  alert("Name can't be blank");  
-  return false;  
-}else if(mobile.length<10){  
-  alert("Enter a correct mobile number");  
-  return false;  
-  }
-else if(email.length<1){  
-  alert("Please enter email id");  
-  return false;  
-  }  
-else if(course.length<1){  
-	  alert("Please enter course");  
-	  return false;  
-	  }  
-}  
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="images/Web_Design_and_Development.png" alt="slider free download" title="WebDesign" id="wows1_0"/>Smartglossa WebDesign</li>
+		<li><img src="images/7.jpg" alt="free image slider" title="Special Offers " id="wows1_1"/><!--It is the oldest of the Seven Wonders of the Ancient World.--></li>
+		<li><img src="images/dd.png" alt="slider jquery free" title="Special Offers" id="wows1_2"/><!--The Great Wall of China is a series of fortifications built across the historical northern borders of China--></li>
+		<li><img src="images/xx.jpg" alt="jquery slider free" title="Special Offers" id="wows1_3"/><!--This is the largest amphitheatre ever built.--></li>
+	</ul></div>
+	<div class="ws_bullets">
+         <a href="#" title="Smartglossa"><span><img src="images/Web_Design_and_Development.png" alt="java Offers" width="80" height="80" />slider download</span></a>
+		<a href="#" title="......"><span><img src="images/7.jpg" alt="java Offers" width="80" height="80" />slider download</span></a>
+		<a href="#" title="......"><span><img src="images/dd.png" alt="Mysql Offers" height="80" width="80" />image slider free download</span></a>
+		<a href="#" title="......"><span><img src="images/xx.jpg" alt="HTML Offers " height="80" width="80" />free slides</span></a>
+	</div>
+	</div>
+	<script type="text/javascript" src="js/wowslider.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	        <!-- End WOWSlider.com BODY section -->
+<br />
+</div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+							</section>
+							<!-- ========== FEATURED TEACHERS END ========== -->
+							<!-- ========== LINKS START ========== -->
+
+							<script type="text/javascript">
+								function validateform(){
+									var name=document.contactform.Name.value;
+									var mobile=document.contactform.Mobile.value;
+									var email=document.contactform.Email.value;
+									var course=document.contactform.Course.value;
+									if (name==null || name==""){
+										alert("Name can't be blank");
+										return false;
+									}else if(mobile.length<10){
+										alert("Enter a correct mobile number");
+										return false;
+									}
+									else if(email.length<1){
+										alert("Please enter email id");
+										return false;
+									}
+									else if(course.length<1){
+										alert("Please enter course");
+										return false;
+									}
+								}
 //captcha
- var a = Math.ceil(Math.random() * 10);
-    var b = Math.ceil(Math.random() * 10);       
-    var c = a + b
-    function DrawBotBoot()
-    {
-        document.write("  &nbsp;&nbsp;&nbsp;&nbsp;<span style='background-color:khaki;color:red;font-weight:bold;padding:3px 3px 3px 3px;'> "+ a + " + " + b +" = </span>");
-        document.write("<input id='BotBootInput' type='text' maxlength='2' size='2'/>");
-    }    
-    function ValidBotBoot(){
-        var d = document.getElementById('BotBootInput').value;
-        if (d == c) return true; 
-	else       
-        return false;
-        
-    }
+var a = Math.ceil(Math.random() * 10);
+var b = Math.ceil(Math.random() * 10);
+var c = a + b
+function DrawBotBoot()
+{
+	document.write("  &nbsp;&nbsp;&nbsp;&nbsp;<span style='background-color:khaki;color:red;font-weight:bold;padding:3px 3px 3px 3px;'> "+ a + " + " + b +" = </span>");
+	document.write("<input id='BotBootInput' type='text' maxlength='2' size='2'/>");
+}
+function ValidBotBoot(){
+	var d = document.getElementById('BotBootInput').value;
+	if (d == c) return true;
+	else
+		return false;
+
+}
 function check(){
-var isvalid=ValidBotBoot();
-if(isvalid==true){
-document.getElementById("captchamsg").innerHTML="<img src='assets/images/checked.gif'/>";
- return true;
-}
-else{
-document.getElementById("captchamsg").innerHTML="<img src='assets/images/unchecked.gif'/>";
-return false;
-}
+	var isvalid=ValidBotBoot();
+	if(isvalid==true){
+		document.getElementById("captchamsg").innerHTML="<img src='assets/images/checked.gif'/>";
+		return true;
+	}
+	else{
+		document.getElementById("captchamsg").innerHTML="<img src='assets/images/unchecked.gif'/>";
+		return false;
+	}
 
 }
-</script> 
+</script>
 
-			<div style="background-color:#DCDCDC">
-			<div class="container">
-			
-				<div class="row">
-<br>
-<h2 id="mylocation"></h2>
-					<div class="col-sm-12 enqform">
-						<h2 style="color:gray;text-align:center;padding:5px;">Enquiry Form</h2>
-						<form  action="enquiryformprocess.jsp" name="contactform" onsubmit="return validateform()" method="post">
+<div style="background-color:#DCDCDC">
+	<div class="container">
+
+		<div class="row">
+			<br>
+			<h2 id="mylocation"></h2>
+			<div class="col-sm-12 enqform">
+				<h2 style="color:gray;text-align:center;padding:5px;">Enquiry Form</h2>
+
+
 					<div class="row">
 						<div class="col-sm-6">
-							<div class="form-group" id="contact-name-group">
-								<label >Name</label>
-								<input type="text" class="form-control" id="contact-input-name" name="name" placeholder="Enter your name" required>
-							</div>
-							<div class="form-group" >
-								<label >Mobile</label>
-								<input type="number" class="form-control" name="mobile" placeholder="Enter your mobile no (only numeric)" required>
-							</div>
-							<div class="form-group" id="contact-email-group">
-								<label >Email</label>
-								<input type="email" class="form-control" id="contact-input-email" name="email" placeholder="Enter your email" required>
-							</div>
+							<form id="myform">
+                            <div class="form-group" id="contact-name-group">
+                                <label >Name</label>
+                                <input type="text" class="form-control" id="contact-input-name"  name="reply" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group" >
+                                <label >Mobile</label>
+                                <input type="number" class="form-control"  name="reply_to" placeholder="Enter your mobile no (only numeric)" required>
+                            </div>
+                            <div class="form-group" id="contact-email-group">
+                                <label >Email</label>
+                                <input type="email" class="form-control" id="contact-input-email" name="email" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group" id="contact-subject-group">
+                                <label >Course</label>
+                                <input type="text" class="form-control" id="contact-input-subject" name="to_name" placeholder="Course intrested in">
+                            </div>
+
+                            <div class="form-group" id="contact-message-group">
+                                <label >Address</label>
+                                <textarea class="form-control" id="contact-input-message" rows="5" name="message_html" placeholder="Enter your current location"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="row">
+                        <div class="col-sm-12 text-center">
+                            <label for="captcha"><b>Captcha Verification:</b></label>
+                            <br>
+                            <input type="hidden" name="hidden" value="sonoo"/>
+                            <script type="text/javascript">DrawBotBoot()</script>
+                            <span style="color:red;font-weight:bold;" id="captchamsg"></span>
+                            <br/><br>
+                            <button>
+              Send
+             </button>
+                        </form>
+                        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("user_wZptefm3nWfXCRzc5woXB");
+  })();
+</script>
+<script>
+    var myform = $("form#myform");
+myform.submit(function(event){
+    event.preventDefault();
+
+    var params = myform.serializeArray().reduce(function(obj, item) {
+    obj[item.name] = item.value;
+    return obj;
+ }, {});
+
+ // Change to your service ID, or keep using the default service
+ var service_id = "default_service";
+
+ var template_id = "website_mail";
+ myform.find("button").text("Sending...");
+ emailjs.send(service_id,template_id,params)
+     .then(function(){
+      alert("Sent!");
+      myform.find("button").text("Send");
+    }, function(err) {
+      alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+      myform.find("button").text("Send");
+   });
+ return false;
+});
+</script>
+
+
+
+
 						</div>
-						<div class="col-sm-6">
-							<div class="form-group" id="contact-subject-group">
-								<label >Course</label>
-								<input type="text" class="form-control" id="contact-input-subject" name="course" placeholder="Course intersted in">
-							</div>
-
-							<div class="form-group" id="contact-message-group">
-								<label >Address</label>
-								<textarea class="form-control" id="contact-input-message" rows="5" name="message" placeholder="Enter your current location"></textarea>
-							</div>
-						</div>
-					</div>
-					<div  class="row">
-						<div class="col-sm-12 text-center">
-     <label for="captcha"><b>Captcha Verification:</b></label>
-<br>
-<input type="hidden" name="hidden" value="sonoo"/>
-<script type="text/javascript">DrawBotBoot()</script>
-<span style="color:red;font-weight:bold;" id="captchamsg"></span>
-<br/>
-							<!-- <button type="submit" class="btn btn-primary" >Submit</button> -->
-							<input type="submit" class="btn btn-primary" name="submit" value="Submit" onclick="return check();postForm();s=form.answer.value; s=s.replace(/&amp;/g,'&amp;amp;');s=s.replace(/&lt;/g,'&amp;lt;');s=s.replace(/&gt;/g,'&amp;gt;');s=s.replace(/\n/g,'&lt;br /&gt;\n');s=s.replace(/\r/g,'');form.answer.value = s; "/>
-
-
-
-					</div>
 					</div>
 				</form>
-					</div>
-				</div>
-			</div>
-		
-
-
-<br>
-</div>
-		
-		<div id="links">
-			<div class="container">
-				<div class="row">
-
-					<!-- ==== QUICK LINKS START == -->
-				
-					<!-- ==== QUICK LINKS END == -->
-
-					<!-- ==== LATEST COURSES START == -->
-					<div class="col-sm-4">
-						<h3>Training Programs</h3>
-						<ul>
-							<li><a href="" ><i class="fa fa-angle-right"></i>Summer Training</a></li>
-							<li><a href="" ><i class="fa fa-angle-right"></i>Corporate Training</a></li>
-							<li><a href="" ><i class="fa fa-angle-right"></i>On Campus Training</a></li>
-					    </ul>
-					</div>
-					<!-- ==== LATEST COURSES END == -->
-
-
-					<!-- ==== POPULAR COURSES END == -->
-
-					<!-- ==== LATEST COMMENTS START == -->
-					<div class="col-sm-4">
-						<h3>Contact</h3>
-						<p style="color:white;"> 1A, First Floor, DGL Tower,<br> 
-                       Marthandapuram, Second Street,
-                       Alangudi Road, Pudukkottai - 622001</p>
-					   <p style="color:white;">Phone: <a href="#">91-9500239154</a><br>
-						Website: <a href="#">www.smartglossa.com
-						</a></p>
-
-					</div>
-					<!-- ==== LATEST COMMENTS END == -->
-					<!-- ==== LATEST COMMENTS START == -->
-					
-					<!-- ==== LATEST COMMENTS END == -->
-				</div>
 			</div>
 		</div>
+	</div>
 
-		<footer>
-			<div class="container">
-				<div class="row">
 
-					<!-- ==== CREDITS START == -->
-					<div class="col-sm-8">
-						<h6 style="left: 320px; position:absolute;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@www.smartglossa.com &nbsp;&nbsp;&nbsp;&nbsp; Developed By SMARTGLOSSA TEAM</h6>&nbsp;&nbsp;&nbsp;&nbsp;
-					</div>
-					<!-- ==== CREDITS END == -->
-					</div>
+
+	<br>
+</div>
+
+<div id="links">
+	<div class="container">
+		<div class="row">
+
+			<!-- ==== QUICK LINKS START == -->
+
+			<!-- ==== QUICK LINKS END == -->
+
+			<!-- ==== LATEST COURSES START == -->
+			<div class="col-sm-4">
+			<!--	<h3>Training Programs</h3>-->
+				<ul>
+					<li><a href="industrial-training.jsp" ><i class="fa fa-angle-right"></i><!--Summer Training--></a></li>
+					<li><a href="corporate-training.jsp" ><i class="fa fa-angle-right"></i><!--Corporate Training--></a></li>
+					<li><a href="oncampus-training.jsp" ><i class="fa fa-angle-right"></i><!--On Campus Training--></a></li>
+				</ul>
 			</div>
-		</footer>
+			<!-- ==== LATEST COURSES END == -->
 
-		<!-- ========== FOOTER END ========== -->
 
-		<!-- Modernizr Plugin -->
-		<script src="js/modernizr.custom.97074.js"></script>
+			<!-- ==== POPULAR COURSES END == -->
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery-1.11.1.min.js"></script>
+			<!-- ==== LATEST COMMENTS START == -->
+			<div class="col-sm-4">
+				<h3>Contact</h3>
+				<p style="color:white;"> 1A, First Floor, <br>DGL Tower,<br>
+					Marthandapuram, Second Street,<br>
+					Alangudi Road,<br> Pudukkottai - 622001</p>
+					<p style="color:white;">Phone: <a href="#">91-9500239154</a><br>
+						Email: <a href="#">www.smartglossa.com
+					</a></p>
 
-		<!-- Bootstrap Plugins -->
-		<script src="js/bootstrap.min.js"></script>
+				</div>
+				<!-- ==== LATEST COMMENTS END == -->
+				<!-- ==== LATEST COMMENTS START == -->
 
-		<!-- Retina Plugin -->
-		<script src="js/retina-1.1.0.min.js"></script>
+				<!-- ==== LATEST COMMENTS END == -->
+			</div>
+		</div>
+	</div>
 
-		<!-- Superslides Plugin -->
-		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/jquery.animate-enhanced.min.js"></script>
-		<script src="js/jquery.superslides.js"></script>
+	<footer>
+		<div class="container">
+			<div class="row">
 
-		<!-- Owl Carousel Plugin -->
-		<script src="js/owl.carousel.min.js"></script>
+				<!-- ==== CREDITS START == -->
+				<div class="col-sm-8">
+					<h6 style="left: 320px; position:absolute;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@www.smartglossa.com &nbsp;&nbsp;&nbsp;&nbsp; Developed By SMARTGLOSSA TEAM</h6>&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+				<!-- ==== CREDITS END == -->
+			</div>
+		</div>
+	</footer>
 
-		<!-- Parallax ImageScroll Plugin -->
-		<script src="js/jquery.parallax-1.1.3.js"></script>
+	<!-- ========== FOOTER END ========== -->
 
-		<!-- Fancybox Plugin -->
-		<script src="js/jquery.fancybox.js"></script>
+	<!-- Modernizr Plugin -->
+	<script src="js/modernizr.custom.97074.js"></script>
 
-		<!-- ImagesLoaded Plugin -->
-		<script src="js/imagesloaded.pkgd.min.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/hide.js"></script>
 
-		<!-- Masonry Plugin -->
-		<script src="js/masonry.pkgd.min.js"></script>
+	<!-- Bootstrap Plugins -->
+	<script src="js/bootstrap.min.js"></script>
 
-		<!-- Progressbar Plugin -->
-		<script src="js/bootstrap-progressbar.js"></script>
+	<!-- Retina Plugin -->
+	<script src="js/retina-1.1.0.min.js"></script>
 
-		<!-- Scroll Reveal Plugin -->
-		<script src="js/scrollReveal.js"></script>
+	<!-- Superslides Plugin -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.animate-enhanced.min.js"></script>
+	<script src="js/jquery.superslides.js"></script>
 
-		<!-- Magic Form Processing -->
-		<script src="js/magic.js"></script>
+	<!-- Owl Carousel Plugin -->
+	<script src="js/owl.carousel.min.js"></script>
 
-		<!-- jQuery Settings -->
-		<script src="js/settings.js"></script>
-		
-		<!-- ========== FOOTER END ========== -->
+	<!-- Parallax ImageScroll Plugin -->
+	<script src="js/jquery.parallax-1.1.3.js"></script>
 
-		
-	</body>
+	<!-- Fancybox Plugin -->
+	<script src="js/jquery.fancybox.js"></script>
+
+	<!-- ImagesLoaded Plugin -->
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+
+	<!-- Masonry Plugin -->
+	<script src="js/masonry.pkgd.min.js"></script>
+
+	<!-- Progressbar Plugin -->
+	<script src="js/bootstrap-progressbar.js"></script>
+
+	<!-- Scroll Reveal Plugin -->
+	<script src="js/scrollReveal.js"></script>
+
+	<!-- Magic Form Processing -->
+	<script src="js/magic.js"></script>
+
+	<!-- jQuery Settings -->
+	<script src="js/settings.js"></script>
+	<!-- js for email concept-->
+	
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+	<!-- ========== FOOTER END ========== -->
+
+
+</body>
 </html>
