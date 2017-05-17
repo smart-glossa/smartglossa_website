@@ -369,22 +369,23 @@ the least.\n
     <string name="header"><i>\t\t HEADER TAG:</i></string>
    <string name="header_tag">\n\t\t Explanation:\n
 </string>
-   <string name="header_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
-represents a footer for its nearest sectioning content or sectioning
-root element. A footer typically contains information about the
-author of the section, copyright data or links to related documents \n
+   <string name="header_tag1"><![CDATA[\t\tNavigation or introductory elements for the current section. The
+HTML <header> element represents a group of introductory or
+navigational aids. It may contain some heading elements but also
+other elements like a logo, wrapped section's header, a search form,
+and so on. \n
 ]]></string>
     <string name="header_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
 ]]>\n</string>
    <string name="header_tag2">Syntax:\n\n<![CDATA[
-<footer>Some copyright documents here</footer>]]>\n
+<header> search form </header>]]>\n
    </string>\n
    <string name="header_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-  <footer>Some copyright documents here</footer>
+  <header> search form </header>
   </body>\n
   </html>
 
@@ -395,22 +396,32 @@ author of the section, copyright data or links to related documents \n
     <string name="hgroup"><i>\t\t HGROUP TAG:</i></string>
    <string name="hgroup_tag">\n\t\t Explanation:\n
 </string>
-   <string name="hgroup_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
-represents a footer for its nearest sectioning content or sectioning
-root element. A footer typically contains information about the
-author of the section, copyright data or links to related documents \n
+   <string name="hgroup_tag1"><![CDATA[\t\tThe HTML <hgroup> Element (HTML Headings Group Element)
+represents the heading of a section. It deတnes a single title that
+participates in the outline of the document as the heading of the
+implicit or explicit section that it belongs to. Its text for the outline
+algorithm is the text of the တrst HTML Heading Element of highest
+rank (i.e., the တrst <h1>, <h2>, <h3>, <h4>, <h5> or <h6> with the
+smallest number among its descendants) and the rank is the rank of
+this very same HTML Heading Element. \n
 ]]></string>
     <string name="hgroup_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
 ]]>\n</string>
    <string name="hgroup_tag2">Syntax:\n\n<![CDATA[
-<footer>Some copyright documents here</footer>]]>\n
+<hgroup>
+<h1>Main title</h1>
+<h2>Secondary title</h2>
+</hgroup>]]>\n
    </string>\n
    <string name="hgroup_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-  <footer>Some copyright documents here</footer>
+  <hgroup>\n
+<h1>Main title</h1>\n
+<h2>Secondary title</h2>\n
+</hgroup>
   </body>\n
   </html>
 
@@ -421,22 +432,28 @@ author of the section, copyright data or links to related documents \n
     <string name="nav"><i>\t\t NAV TAG:</i></string>
    <string name="nav_tag">\n\t\t Explanation:\n
 </string>
-   <string name="nav_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
-represents a footer for its nearest sectioning content or sectioning
-root element. A footer typically contains information about the
-author of the section, copyright data or links to related documents \n
+   <string name="nav_tag1"><![CDATA[\t\tA section of a page that links to other pages. The HTML <nav>
+element (HTML Navigation Element) represents a section of a page
+that links to other pages or to parts within the page: a section with
+navigation links. \n
 ]]></string>
     <string name="nav_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
 ]]>\n</string>
    <string name="nav_tag2">Syntax:\n\n<![CDATA[
-<footer>Some copyright documents here</footer>]]>\n
+<nav><ul><li>...</li></ul></nav>]]>\n
    </string>\n
    <string name="nav_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-  <footer>Some copyright documents here</footer>
+ <nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About us</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</nav>
   </body>\n
   </html>
 
@@ -447,22 +464,22 @@ author of the section, copyright data or links to related documents \n
     <string name="section"><i>\t\t SECTION TAG:</i></string>
    <string name="section_tag">\n\t\t Explanation:\n
 </string>
-   <string name="section_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
-represents a footer for its nearest sectioning content or sectioning
-root element. A footer typically contains information about the
-author of the section, copyright data or links to related documents \n
+   <string name="section_tag1"><![CDATA[\t\tContains of elements grouped by theme, for example a chapter or
+tab box. \n
 ]]></string>
     <string name="section_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
 ]]>\n</string>
    <string name="section_tag2">Syntax:\n\n<![CDATA[
-<footer>Some copyright documents here</footer>]]>\n
+<section><h1>Heading</h1><p>smartglossa pages
+content</p></section>]]>\n
    </string>\n
    <string name="section_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-  <footer>Some copyright documents here</footer>
+  <section><h1>Heading</h1><p>Smartglossa
+content</p></section>
   </body>\n
   </html>
 
@@ -473,12 +490,13 @@ author of the section, copyright data or links to related documents \n
     <string name="blockqoute"><i>\t\t BLOCKQUOTE TAG:</i></string>
    <string name="blockqoute_tag">\n\t\t Explanation:\n
 </string>
-   <string name="blockqoute_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
-represents a footer for its nearest sectioning content or sectioning
-root element. A footer typically contains information about the
-author of the section, copyright data or links to related documents \n
+   <string name="blockqoute_tag1"><![CDATA[\t\tQuote from another source. The HTML <blockquote> Element (or
+HTML Block Quotation Element) indicates that the enclosed text is an
+extended quotation.A URL for the source of the
+quotation may be given using the cite attribute, while a text
+representation of the source can be given using the <cite> element. \n
 ]]></string>
-    <string name="blockqoute_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="blockqoute_attr">Attributes (modifiers):\n\n<![CDATA[city+global attributes
 ]]>\n</string>
    <string name="blockqoute_tag2">Syntax:\n\n<![CDATA[
 <footer>Some copyright documents here</footer>]]>\n
