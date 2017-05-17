@@ -657,7 +657,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- figure tag -->
 
-    <string name="figure"><i>\t\t FOOTER TAG:</i></string>
+    <string name="figure"><i>\t\t FIGURE TAG:</i></string>
    <string name="figure_tag">\n\t\t Explanation:\n
 </string>
    <string name="figure_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
