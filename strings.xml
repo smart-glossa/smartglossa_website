@@ -684,7 +684,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- hr tag -->
 
-    <string name="hr"><i>\t\t FOOTER TAG:</i></string>
+    <string name="hr"><i>\t\t HR TAG:</i></string>
    <string name="hr_tag">\n\t\t Explanation:\n
 </string>
    <string name="hr_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -710,7 +710,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- li tag -->
 
-    <string name="li"><i>\t\t FOOTER TAG:</i></string>
+    <string name="li"><i>\t\t LI TAG:</i></string>
    <string name="li_tag">\n\t\t Explanation:\n
 </string>
    <string name="li_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -737,7 +737,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- main tag -->
 
-    <string name="main"><i>\t\t FOOTER TAG:</i></string>
+    <string name="main"><i>\t\t MAIN TAG:</i></string>
    <string name="main_tag">\n\t\t Explanation:\n
 </string>
    <string name="main_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -763,7 +763,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- ol tag -->
 
-    <string name="ol"><i>\t\t FOOTER TAG:</i></string>
+    <string name="ol"><i>\t\t OL TAG:</i></string>
    <string name="ol_tag">\n\t\t Explanation:\n
 </string>
    <string name="ol_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -789,7 +789,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- p tag -->
 
-    <string name="p"><i>\t\t FOOTER TAG:</i></string>
+    <string name="p"><i>\t\t P TAG:</i></string>
    <string name="p_tag">\n\t\t Explanation:\n
 </string>
    <string name="p_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -815,7 +815,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- pre tag -->
 
-    <string name="pre"><i>\t\t FOOTER TAG:</i></string>
+    <string name="pre"><i>\t\t PRE TAG:</i></string>
    <string name="pre_tag">\n\t\t Explanation:\n
 </string>
    <string name="pre_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -841,7 +841,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- ul tag -->
 
-    <string name="ul"><i>\t\t FOOTER TAG:</i></string>
+    <string name="ul"><i>\t\t UL TAG:</i></string>
    <string name="ul_tag">\n\t\t Explanation:\n
 </string>
    <string name="ul_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -868,7 +868,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- a tag -->
 
-    <string name="ah"><i>\t\t FOOTER TAG:</i></string>
+    <string name="ah"><i>\t\t A TAG:</i></string>
    <string name="ah_tag">\n\t\t Explanation:\n
 </string>
    <string name="ah_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -895,7 +895,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- abbr tag -->
 
-    <string name="abbr"><i>\t\t FOOTER TAG:</i></string>
+    <string name="abbr"><i>\t\t ABBR TAG:</i></string>
    <string name="abbr_tag">\n\t\t Explanation:\n
 </string>
    <string name="abbr_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -922,7 +922,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- b tag -->
 
-    <string name="b"><i>\t\t FOOTER TAG:</i></string>
+    <string name="b"><i>\t\t BOLD TAG:</i></string>
    <string name="b_tag">\n\t\t Explanation:\n
 </string>
    <string name="b_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -948,7 +948,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- bdl tag -->
 
-    <string name="bdl"><i>\t\t FOOTER TAG:</i></string>
+    <string name="bdl"><i>\t\t BDL TAG:</i></string>
    <string name="bdl_tag">\n\t\t Explanation:\n
 </string>
    <string name="bdl_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -974,7 +974,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- bdo tag -->
 
-    <string name="bdo"><i>\t\t FOOTER TAG:</i></string>
+    <string name="bdo"><i>\t\t BDO TAG:</i></string>
    <string name="bdo_tag">\n\t\t Explanation:\n
 </string>
    <string name="bdo_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -1000,7 +1000,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- city tag -->
 
-    <string name="city"><i>\t\t FOOTER TAG:</i></string>
+    <string name="city"><i>\t\t CITY TAG:</i></string>
    <string name="city_tag">\n\t\t Explanation:\n
 </string>
    <string name="city_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -1027,7 +1027,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- code tag -->
 
-    <string name="code"><i>\t\t FOOTER TAG:</i></string>
+    <string name="code"><i>\t\t CODE TAG:</i></string>
    <string name="code_tag">\n\t\t Explanation:\n
 </string>
    <string name="code_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -1055,7 +1055,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- del tag -->
 
-    <string name="del"><i>\t\t FOOTER TAG:</i></string>
+    <string name="del"><i>\t\t DEL TAG:</i></string>
    <string name="del_tag">\n\t\t Explanation:\n
 </string>
    <string name="del_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -1081,7 +1081,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- dfn tag -->
 
-    <string name="dfn"><i>\t\t FOOTER TAG:</i></string>
+    <string name="dfn"><i>\t\t DFN TAG:</i></string>
    <string name="dfn_tag">\n\t\t Explanation:\n
 </string>
    <string name="dfn_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -1107,7 +1107,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- em tag -->
 
-    <string name="em"><i>\t\t FOOTER TAG:</i></string>
+    <string name="em"><i>\t\t EM TAG:</i></string>
    <string name="em_tag">\n\t\t Explanation:\n
 </string>
    <string name="em_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -1133,7 +1133,7 @@ author of the section, copyright data or links to related documents \n
 
     <!-- i tag -->
 
-    <string name="i"><i>\t\t FOOTER TAG:</i></string>
+    <string name="i"><i>\t\t I TAG:</i></string>
    <string name="i_tag">\n\t\t Explanation:\n
 </string>
    <string name="i_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
