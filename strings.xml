@@ -366,7 +366,7 @@ the least.\n
 
     <!--header tag -->
 
-    <string name="header"><i>\t\t FOOTER TAG:</i></string>
+    <string name="header"><i>\t\t HEADER TAG:</i></string>
    <string name="header_tag">\n\t\t Explanation:\n
 </string>
    <string name="header_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -392,7 +392,7 @@ author of the section, copyright data or links to related documents \n
 
     <!--hgroup tag -->
 
-    <string name="hgroup"><i>\t\t FOOTER TAG:</i></string>
+    <string name="hgroup"><i>\t\t HGROUP TAG:</i></string>
    <string name="hgroup_tag">\n\t\t Explanation:\n
 </string>
    <string name="hgroup_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -418,7 +418,7 @@ author of the section, copyright data or links to related documents \n
 
     <!--nav tag -->
 
-    <string name="nav"><i>\t\t FOOTER TAG:</i></string>
+    <string name="nav"><i>\t\t NAV TAG:</i></string>
    <string name="nav_tag">\n\t\t Explanation:\n
 </string>
    <string name="nav_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
