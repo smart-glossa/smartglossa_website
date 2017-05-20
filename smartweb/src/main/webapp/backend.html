@@ -3,6 +3,8 @@
 <TITLE>SMARTGLOSSA</TITLE>
 <link rel="icon" type="image/gif/png" href="images/SG.jpg">
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
+ <link rel="stylesheet" href="css/bootstrap.min.css"/>  
+
 <style>
 hr {
 width: 97%;
@@ -27,11 +29,27 @@ td{
      font-family:Arabic Typesetting;
     font-size: 26px;
 }
+.welcome{
+    margin-top:-440px;
+}
+.carousel-inner > .item > img,  
+  .carousel-inner > .item > a > img {  
+      width: 65%;  
+      margin: auto;  
+  } 
+  .img{
+    width: 240px;
+    height: 150px;
+  } 
+  .iimg{
+    width:250px;
+    height:250px;
+  }
 </style>
 </head>
 <body>
 <div class="page-header"><h1>BackEnd Developer</h1></div>
-    <div id="wrapper-content">
+    <!--<div id="wrapper-content">
         <div id="page-wrapper">
             <div class="main-content">
                 <div class="topspace">
@@ -57,7 +75,7 @@ td{
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                         <div class="edugate-layout-3">
-                                            <div class="edugate-layout-3-wrapper"><a  class="edugate-image"><img src="images/j.png" alt=""   /></a>
+                                            <div class="edugate-layout-3-wrapper"><a  class="edugate-image"><img src="images/java_p.png" alt=""   /></a>
 
                                                 <div class="edugate-content"><a  class="title">JAVA</a>
 
@@ -80,4 +98,53 @@ td{
                     </div>
                 </div>
             </div>
-        </div></div></body></html>
+        </div>-->  
+    
+  
+<div class="container">  
+   
+  
+<div id="myCarousel" class="carousel slide" data-ride="carousel">  
+    <!-- Indicators -->  
+    <ol class="carousel-indicators">  
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>  
+      <li data-target="#myCarousel" data-slide-to="1"></li>  
+      <li data-target="#myCarousel" data-slide-to="2"></li>  
+    </ol>  
+  
+    <!-- Wrapper for slides -->  
+    <div class="carousel-inner" role="listbox">  
+      <div class="item active">  
+        <img  class="iimg"  src="images/java_log.png" alt="jokes 1" > 
+        <h1 class="welcome">welcome to java </h1>
+      </div>  
+  
+      <div class="item">  
+        <img  class="img" src="images/Hadoop_p.png" alt="jokes 2" > 
+        <h1 class="welcome">welcome to Hadoop </h1> 
+      </div>  
+      
+      <div class="item">  
+        <img  class="img" src="images/phps.jpg" alt="jokes 3" >
+        <h1 class="welcome">welcome to Php </h1>  
+      </div>  
+    </div>  
+  
+    <!-- Left and right controls -->  
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">  
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  
+      <span class="sr-only">Previous</span>  
+    </a>  
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">  
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>  
+      <span class="sr-only">Next</span>  
+    </a>  
+</div><!-- corousel end -->  
+  
+</div>  
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+  </body>  
+</html>  
+</div></body></html>
