@@ -1394,4 +1394,85 @@ emphasis. \n
   </html>
 
 ]]></string>
+
+
+    <!-- ruby tag -->
+
+    <string name="ruby"><i>\t\t RUBY TAG:</i></string>
+   <string name="ruby_tag">\n\t\t Explanation:\n
+</string>
+   <string name="ruby_tag1"><![CDATA[\t\tContains text with annotations, such as pronunciation hints.
+Commonly used in East Asian text. The HTML <ruby> Element
+represents a ruby annotation. Ruby annotations are for showing
+pronunciation of East Asian characters. \n
+]]></string>
+    <string name="ruby_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="ruby_tag2">Syntax:\n\n<![CDATA[
+<ruby> .. </ruby>]]>\n
+   </string>\n
+   <string name="ruby_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+  <ruby>\n
+  <rp>(</rp><rt>Kan</rt><rp>)</rp>\n
+  <rp>(</rp><rt>ji</rt><rp>)</rp>\n
+</ruby>\n
+  </body>\n
+  </html>
+
+]]></string>
+
+    <!-- S tag -->
+
+    <string name="s"><i>\t\t STRIKE TAG:</i></string>
+   <string name="s_tag">\n\t\t Explanation:\n
+</string>
+   <string name="s_tag1"><![CDATA[\t\t Strikethrough text that is outdated or no longer accurate. The HTML
+Strikethrough Element (<s>) renders text with a strikethrough, or a
+line through it. \n
+]]></string>
+    <string name="s_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="s_tag2">Syntax:\n\n<![CDATA[
+<S> .. </S>]]>\n
+   </string>\n
+   <string name="s_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+  <p>Planet earth is <s>flat</s> round</p>
+  </body>\n
+  </html>
+
+]]></string>
+
+    <!-- Samp tag -->
+
+    <string name="samp"><i>\t\t SAMP TAG:</i></string>
+   <string name="samp_tag">\n\t\t Explanation:\n
+</string>
+   <string name="samp_tag1"><![CDATA[\t\t Sample output of a program. The HTML <samp> element is an
+element intended to identify sample output from a computer
+program. \n
+]]></string>
+    <string name="samp_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="samp_tag2">Syntax:\n\n<![CDATA[
+<samp> .. </samp>]]>\n
+   </string>\n
+   <string name="samp_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+  <p>Regular text. <samp>This is sample text.
+</samp> Regular text.</p>
+  </body>\n
+  </html>
+
+]]></string>
 </resources>
