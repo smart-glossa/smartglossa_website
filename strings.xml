@@ -1475,4 +1475,1512 @@ program. \n
   </html>
 
 ]]></string>
+
+
+    <!-- Small tag -->
+
+    <string name="small"><i>\t\t SMALL TAG:</i></string>
+   <string name="small_tag">\n\t\t Explanation:\n
+</string>
+   <string name="small_tag1"><![CDATA[\t\t Small text, such as တne print. The HTML Small Element (<small>)
+makes the text font size one size smaller (for example, from large to
+medium, or from small to x-small) down to the browser's minimum
+font size. \n
+]]></string>
+    <string name="small_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="small_tag2">Syntax:\n\n<![CDATA[
+<small> .. </small>]]>\n
+   </string>\n
+   <string name="small_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+  <p>Regular text. <small>This is sample text.
+</small> Regular text.</p>
+  </body>\n
+  </html>
+
+]]></string>
+
+
+    <!-- Span tag -->
+
+    <string name="span"><i>\t\t SPAN TAG:</i></string>
+   <string name="span_tag">\n\t\t Explanation:\n
+</string>
+   <string name="span_tag1"><![CDATA[\t\t Container with no semantic meaning. The HTML <span> element is a
+generic inline container for phrasing content, which does not
+inherently represent anything. It can be used to group elements for
+styling purposes (using the class or id attributes), or because they
+share attribute values, such as lang. \n
+]]></string>
+    <string name="span_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="span_tag2">Syntax:\n\n<![CDATA[
+<span> .. </span>]]>\n
+   </string>\n
+   <string name="span_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+  <p>Regular text. <span>This is sample text.
+</span> Regular text.</p>
+  </body>\n
+  </html>
+
+]]></string>
+
+
+    <!-- strong tag -->
+
+    <string name="strong"><i>\t\t STRONG TAG:</i></string>
+   <string name="strong_tag">\n\t\t Explanation:\n
+</string>
+   <string name="strong_tag1"><![CDATA[\t\t Text that is important. The HTML Strong Element (<strong>) gives
+text strong importance, and is typically displayed in bold. \n
+]]></string>
+    <string name="strong_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="strong_tag2">Syntax:\n\n<![CDATA[
+<strong> .. </strong>]]>\n
+   </string>\n
+   <string name="strong_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+  <p>Regular text. <strong>This is sample text.
+</strong> Regular text.</p>
+  </body>\n
+  </html>
+
+]]></string>
+
+    <!-- sub tag -->
+
+    <string name="sub"><i>\t\t SUB TAG:</i></string>
+   <string name="sub_tag">\n\t\t Explanation:\n
+</string>
+   <string name="sub_tag1"><![CDATA[\t\t Subscript text. The HTML Subscript Element (<sub>) deတnes a span of
+text that should be displayed, for typographic reasons, lower, and
+often smaller, than the main span of text. \n
+]]></string>
+    <string name="sub_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="sub_tag2">Syntax:\n\n<![CDATA[
+<sub> .. </sub>]]>\n
+   </string>\n
+   <string name="sub_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+ <p>The chemical formula of water is
+H<sub>2</sub>O</p>
+  </body>\n
+  </html>
+
+]]></string>
+
+
+    <!-- sup tag -->
+
+    <string name="sup"><i>\t\t SUP TAG:</i></string>
+   <string name="sup_tag">\n\t\t Explanation:\n
+</string>
+   <string name="sup_tag1"><![CDATA[\t\t Superscript text. The HTML Superscript Element (<sup>) deတnes a
+span of text that should be displayed, for typographic reasons,
+higher, and often smaller, than the main span of text. \n
+]]></string>
+    <string name="sup_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="sup_tag2">Syntax:\n\n<![CDATA[
+<sup> .. </sup>]]>\n
+   </string>\n
+   <string name="sup_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<p>This text is <sup>superscripted</sup></p>
+  </body>\n
+  </html>
+
+]]></string>
+
+
+    <!-- Time tag -->
+
+    <string name="time"><i>\t\t TIME TAG:</i></string>
+   <string name="time_tag">\n\t\t Explanation:\n
+</string>
+   <string name="time_tag1"><![CDATA[\t\t Time defined in a machine readable format. The HTML <time>
+element represents either a time on a 24-hour clock or a precise date
+in the Gregorian calendar (with optional time and timezone
+information). \n
+]]></string>
+    <string name="time_attr">Attributes (modifiers):\n\n<![CDATA[datetime + global attributes
+]]>\n</string>
+   <string name="time_tag2">Syntax:\n\n<![CDATA[
+<time> .. </time>]]>\n
+   </string>\n
+   <string name="time_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<p>The concert starts at <time>20:00</time>.
+</p>
+  </body>\n
+  </html>
+
+]]></string>
+
+
+    <!-- var tag -->
+
+    <string name="var"><i>\t\t VAR TAG:</i></string>
+   <string name="var_tag">\n\t\t Explanation:\n
+</string>
+   <string name="var_tag1"><![CDATA[\t\t Mathematical or programming variable. The HTML Variable Element
+(<var>) represents a variable in a mathematical expression or a
+programming context. \n
+]]></string>
+    <string name="var_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="var_tag2">Syntax:\n\n<![CDATA[
+<var> .. </var>]]>\n
+   </string>\n
+   <string name="var_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<p> A simple equation: <var>x</var> =
+<var>y</var> + 2 </p>
+</body>\n
+  </html>
+
+]]></string>
+
+
+    <!-- wbr tag -->
+
+    <string name="wbr"><i>\t\t WBR TAG:</i></string>
+   <string name="wbr_tag">\n\t\t Explanation:\n
+</string>
+   <string name="wbr_tag1"><![CDATA[\t\t Opportunity for a line break. The HTML element word break
+opportunity <wbr> represents a position within text where the
+browser may optionally break a line, though its line-breaking rules
+would not otherwise create a break at that location. \n
+]]></string>
+    <string name="wbr_attr">Attributes (modifiers):\n\n<![CDATA[ global attributes
+]]>\n</string>
+   <string name="wbr_tag2">Syntax:\n\n<![CDATA[
+.long<wbr>.example<wbr>]]>\n
+   </string>\n
+   <string name="wbr_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<p>http://this<wbr>.is<wbr>.a<wbr>.really<wbr>
+.long<wbr>.example<wbr>.com/With<wbr></p>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- caption tag -->
+
+    <string name="caption"><i>\t\t CAPTION TAG:</i></string>
+   <string name="caption_tag">\n\t\t Explanation:\n
+</string>
+   <string name="caption_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="caption_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="caption_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="caption_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+  <caption>Monthly savings</caption>\n
+  <tr>\n
+    <th>Month</th>\n
+    <th>Savings</th>\n
+  </tr></table>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- col tag -->
+
+    <string name="col"><i>\t\t COL TAG:</i></string>
+   <string name="col_tag">\n\t\t Explanation:\n
+</string>
+   <string name="col_tag1"><![CDATA[\t\t Columns in a table. The HTML Table Column Element (<col>) deတnes a
+column within a table and is used for defining common semantics on
+all common cells. \n
+]]></string>
+    <string name="col_attr">Attributes (modifiers):\n\n<![CDATA[span + global attributes
+]]>\n</string>
+   <string name="col_tag2">Syntax:\n\n<![CDATA[
+using table format]]>\n
+   </string>\n
+   <string name="col_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+  <caption>Monthly savings</caption>\n
+  <tr>\n
+    <th>Month</th>\n
+    <th>Savings</th>\n
+  </tr></table>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+    <!-- colgroup tag -->
+
+    <string name="colgroup"><i>\t\t COLGROUP TAG:</i></string>
+   <string name="colgroup_tag">\n\t\t Explanation:\n
+</string>
+   <string name="colgroup_tag1"><![CDATA[\t\tDefines a group of columns in a table. The HTML Table Column Group
+Element (<colgroup>) deတnes a group of columns within a table. \n
+]]></string>
+    <string name="colgroup_attr">Attributes (modifiers):\n\n<![CDATA[span + global attributes
+]]>\n</string>
+   <string name="colgroup_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="colgroup_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+  <caption>Monthly savings</caption>\n
+  <tr>\n
+    <th>Month</th>\n
+    <th>Savings</th>\n
+  </tr>\n
+  <tr>\n
+    <td>January</td>\n
+    <td>$100</td>\n
+  </tr>\n
+  <tr>\n
+    <td>February</td>\n
+    <td>$50</td>\n
+  </tr>\n
+</table>
+</body>\n
+  </html>
+
+]]></string>
+
+
+    <!-- table tag -->
+
+    <string name="table"><i>\t\t TABLE TAG:</i></string>
+   <string name="table_tag">\n\t\t Explanation:\n
+</string>
+   <string name="table_tag1"><![CDATA[\t\tTable of multi-dimensional data. The HTML Table Element (<table>)
+represents tabular data: information expressed via two dimensions
+or more. \n
+]]></string>
+    <string name="table_attr">Attributes (modifiers):\n\n<![CDATA[summary + global attributes
+]]>\n</string>
+   <string name="table_tag2">Syntax:\n\n<![CDATA[
+<table> .... </table>]]>\n
+   </string>\n
+   <string name="table_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+  <tr>\n
+    <th>Month</th>\n
+    <th>Savings</th>\n
+  </tr></table>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- tbody tag -->
+
+    <string name="tbody"><i>\t\t TBODY TAG:</i></string>
+   <string name="tbody_tag">\n\t\t Explanation:\n
+</string>
+   <string name="tbody_tag1"><![CDATA[\t\Contains rows that hold the table's data. The HTML Table Body
+Element (<tbody>) deတnes one or more <tr> element data-rows to be
+the body of its parent <table> element (as long as no <tr> elements
+are immediate children of that table element.) In conjunction with a
+preceding <thead> and/or <tfoot> element, <tbody> provides
+additional semantic information for devices such as printers and
+displays. Of the parent table's child elements, <tbody> represents the
+content which, when longer than a page, will most likely di†er for
+each page printed; \n
+]]></string>
+    <string name="tbody_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="tbody_tag2">Syntax:\n\n<![CDATA[
+<tbody> .... </tbody>]]>\n
+   </string>\n
+   <string name="tbody_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+<thead>\n
+     <tr> ...header information... </tr>\n
+</thead>\n
+<tfoot>\n
+     <tr> ...footer information... </tr>\n
+</tfoot>\n
+<tbody>\n
+     <tr> ...first row of block one data...\n
+</tr>\n
+     <tr> ...second row of block one data...\n
+</tr>\n
+</tbody\n>
+  </table>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- td tag -->
+
+    <string name="td"><i>\t\t TD TAG:</i></string>
+   <string name="td_tag">\n\t\t Explanation:\n
+</string>
+   <string name="td_tag1"><![CDATA[\t\t Table cell. The Table cell HTML element (<td>) deတnes a cell of a table
+that contains data. It participates in the table model. \n
+]]></string>
+    <string name="td_attr">Attributes (modifiers):\n\n<![CDATA[colspan | rowspan | headers + global attributes
+]]>\n</string>
+   <string name="td_tag2">Syntax:\n\n<![CDATA[
+<td> .... </td>]]>\n
+   </string>\n
+   <string name="td_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+  <tr>\n
+    <th>Month</th>\n
+    <th>Savings</th>\n
+  </tr></table>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- tfoot tag -->
+
+    <string name="tfoot"><i>\t\t TFOOT TAG:</i></string>
+   <string name="tfoot_tag">\n\t\t Explanation:\n
+</string>
+   <string name="tfoot_tag1"><![CDATA[\t\tContains rows with summary of data. The HTML Table Foot Element
+(<tfoot>) deတnes a set of rows summarizing the columns of the table. \n
+]]></string>
+    <string name="tfoot_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="tfoot_tag2">Syntax:\n\n<![CDATA[
+<tbody> .... </tbody>]]>\n
+   </string>\n
+   <string name="tfoot_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+<thead>\n
+     <tr> ...header information... </tr>\n
+</thead>\n
+<tfoot>\n
+     <tr> ...footer information... </tr>\n
+</tfoot>\n
+<tbody>\n
+</table>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- th tag -->
+
+    <string name="th"><i>\t\t TH TAG:</i></string>
+   <string name="th_tag">\n\t\t Explanation:\n
+</string>
+   <string name="th_tag1"><![CDATA[\t\tTable heading. The HTML element table header cell <th> deတnes a
+cell as a header for a group of cells of a table. The group of cells that
+the header refers to is deတned by the scope and headers attribute.\n
+]]></string>
+    <string name="th_attr">Attributes (modifiers):\n\n<![CDATA[colspan | rowspan | scope | headers + global attributes
+]]>\n</string>
+   <string name="th_tag2">Syntax:\n\n<![CDATA[
+<th> .... </th>]]>\n
+   </string>\n
+   <string name="th_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>
+  <tr>\n
+    <th>Month</th>\n
+    <th>Savings</th>\n
+  </tr>\n
+  <tr>\n
+    <td>January</td>\n
+    <td>$100</td>\n
+  </tr>\n
+  </table>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- thead tag -->
+
+    <string name="thead"><i>\t\t THEAD TAG:</i></string>
+   <string name="thead_tag">\n\t\t Explanation:\n
+</string>
+   <string name="thead_tag1"><![CDATA[\t\tContains rows with table headings. The HTML Table Head Element
+(<thead>) deတnes a set of rows deတning the head of the columns of
+the table. \n
+]]></string>
+    <string name="thead_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="thead_tag2">Syntax:\n\n<![CDATA[
+<thead> .... </thead>]]>\n
+   </string>\n
+   <string name="thead_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+<thead>\n
+     <tr> ...header information... </tr>\n
+</thead>\n
+<tfoot>\n
+     <tr> ...footer information... </tr>\n
+</tfoot>\n
+<tbody>\n
+     <tr> ...first row of block one data...\n
+</tr>\n
+     <tr> ...second row of block one data...\n
+</tr>\n
+</tbody>
+</table>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+
+    <!-- TR tag -->
+
+    <string name="tr"><i>\t\t TR TAG:</i></string>
+   <string name="tr_tag">\n\t\t Explanation:\n
+</string>
+   <string name="tr_tag1"><![CDATA[\t\tA row of cells in a table. The HTML element table row <tr> deတnes a
+row of cells in a table. Those can be a mix of <td> and <th> elements. \n
+]]></string>
+    <string name="tr_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="tr_tag2">Syntax:\n\n<![CDATA[
+<tr> .... </tr>]]>\n
+   </string>\n
+   <string name="tr_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<table>\n
+  <tr>\n
+    <th>Month</th>\n
+    <th>Savings</th>\n
+  </tr></table>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+
+    <!-- button tag -->
+
+    <string name="button"><i>\t\t BUTTON TAG:</i></string>
+   <string name="button_tag">\n\t\t Explanation:\n
+</string>
+   <string name="button_tag1"><![CDATA[\t\t A button. The HTML <button> Element represents a clickable button. \n
+]]></string>
+    <string name="button_attr">Attributes (modifiers):\n\n<![CDATA[autofocus | disabled | form | formaction | formenctype | formmethod
+| formnovalidate | formtarget (_self | _blank | _parent | _top) | name |
+type | value + global attributes
+]]>\n</string>
+   <string name="button_tag2">Syntax:\n\n<![CDATA[
+<button> .... </button>]]>\n
+   </string>\n
+   <string name="button_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<button>Save</button>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+
+    <!-- data tag -->
+
+    <string name="data"><i>\t\t DATA TAG:</i></string>
+   <string name="data_tag">\n\t\t Explanation:\n
+</string>
+   <string name="data_tag1"><![CDATA[\t\tAllows for machine-readable data to be provided. The HTML <data>
+Element links a given content with a machine-readable translation. If
+the content is time- or date-related, the <time> must be used.\n
+]]></string>
+    <string name="data_attr">Attributes (modifiers):\n\n<![CDATA[value + global attributes
+]]>\n</string>
+   <string name="data_tag2">Syntax:\n\n<![CDATA[
+<data> .... </data>]]>\n
+   </string>\n
+   <string name="data_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+  <ul>
+ <li><data value="29453534598">Mini
+Ketchup</data></li>\n
+ <li><data value="69343836363">Jumbo
+Ketchup</data></li>\n
+ <li><data value="25245234244">Mega Jumbo
+Ketchup</data></li>\n
+</ul>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+
+    <!-- datalist tag -->
+
+    <string name="datalist"><i>\t\t DATALIST TAG:</i></string>
+   <string name="datalist_tag">\n\t\t Explanation:\n
+</string>
+   <string name="datalist_tag1"><![CDATA[\t\tDeတne sets of options. The HTML Datalist Element (<datalist>)
+contains a set of <option> elements that represent the values
+available for other controls.\n
+]]></string>
+    <string name="datalist_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="datalist_tag2">Syntax:\n\n<![CDATA[
+<datalist> .... </datalist>]]>\n
+   </string>\n
+   <string name="datalist_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<label>Choose a browser from this list:\n
+<input list="browsers" name="myBrowser" />\n
+</label>\n
+<datalist id="browsers">\n
+  <option value="Chrome">\n
+  <option value="Firefox">\n
+
+</datalist>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- fieldlist tag -->
+
+    <string name="fieldlist"><i>\t\t FIELDLIST TAG:</i></string>
+   <string name="fieldlist_tag">\n\t\t Explanation:\n
+</string>
+   <string name="fieldlist_tag1"><![CDATA[\t\tSet of form controls grouped by theme. The HTML <တeldset> element
+is used to group several controls as well as labels (<label>) within a
+web form.\n
+]]></string>
+    <string name="fieldlist_attr">Attributes (modifiers):\n\n<![CDATA[disabled | form | name + global attributes
+]]>\n</string>
+   <string name="fieldlist_tag2">Syntax:\n\n<![CDATA[
+<fieldlist> .... </fieldlist>]]>\n
+   </string>\n
+   <string name="fieldlist_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+<form action="test.php" method="post">\n
+  <fieldset>\n
+    <legend>Title</legend>\n
+    <input type="radio" id="radio">\n
+    <label for="radio">Click me</label>\n
+  </fieldset>\n
+</form></body>\n
+  </html>
+
+]]></string>
+
+
+
+
+    <!-- form tag -->
+
+    <string name="form"><i>\t\t FORM TAG:</i></string>
+   <string name="form_tag">\n\t\t Explanation:\n
+</string>
+   <string name="form_tag1"><![CDATA[\t\tUsed to create an HTML form for user input. The HTML <form>
+element represents a document section that contains interactive
+controls to submit information to a web server. It is possible to use
+the :valid and :invalid CSS pseudo-classes to style a <form> element.\n
+]]></string>
+    <string name="form_attr">Attributes (modifiers):\n\n<![CDATA[action | autocomplete | name | novalidate | accept-charset | enctype |
+method | target (_self | _blank | _parent | _top) + global attributes
+]]>\n</string>
+   <string name="form_tag2">Syntax:\n\n<![CDATA[
+<form> .... </form>]]>\n
+   </string>\n
+   <string name="form_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<form action="next page link " method="post">\n
+  <fieldset>\n
+    <legend>Title</legend>\n
+    <input type="radio" id="radio">\n
+    <label for="radio">Click me</label>\n
+  </fieldset>\n
+</form>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+
+    <!-- input tag -->
+
+    <string name="input"><i>\t\t INPUT TAG:</i></string>
+   <string name="input_tag">\n\t\t Explanation:\n
+</string>
+   <string name="input_tag1"><![CDATA[\t\t Generic form input. The HTML element <input> is used to create
+interactive controls for web-based forms in order to accept data
+from the user. How an <input> works varies considerably depending
+on the value of its type attribute. \n
+]]></string>
+    <string name="input_attr">Attributes (modifiers):\n\n<![CDATA[accept | alt | auto-complete | autofocus | checked | disabled | form |
+formaction | formenctype | formmethod | formnovalidate |
+formtarget | height | list | max | maxlength | min | multiple | name |
+pattern | placeholder | readonly | required | size | src | step | type |
+value | width | webkitdirectory | global | spellcheck |
+selectionDirection + global attributes
+]]>\n</string>
+   <string name="input_tag2">Syntax:\n\n<![CDATA[
+<input> .... </input>]]>\n
+   </string>\n
+   <string name="input_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<input type="text" value="Type here">
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- label tag -->
+
+    <string name="label"><i>\t\t LABEL TAG:</i></string>
+   <string name="label_tag">\n\t\t Explanation:\n
+</string>
+   <string name="label_tag1"><![CDATA[\t\tCaption for a form control. The HTML Label Element (<label>)
+represents a caption for an item in a user interface. It can be
+associated with a control either by placing the control element inside
+the <label> element, or by using the for attribute. \n
+]]></string>
+    <string name="label_attr">Attributes (modifiers):\n\n<![CDATA[for + global attributes
+]]>\n</string>
+   <string name="label_tag2">Syntax:\n\n<![CDATA[
+<label for=""> .... </label>]]>\n
+   </string>\n
+   <string name="label_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<label>Click me <input type="text"></label>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- legend tag -->
+
+    <string name="legend"><i>\t\t LEGEND TAG:</i></string>
+   <string name="legend_tag">\n\t\t Explanation:\n
+</string>
+   <string name="legend_tag1"><![CDATA[\t\tDefine a name for a fieldset. The HTML <legend> Element (or HTML
+Legend Field Element) represents a caption for the content of its
+parent <fieldset>. \n
+]]></string>
+    <string name="legend_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="legend_tag2">Syntax:\n\n<![CDATA[
+<legend> .... </legend>]]>\n
+   </string>\n
+   <string name="legend_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<form action="" method="post">\n
+  <fieldset>\n
+    <legend>Title</legend>\n
+    <input type="radio" id="radio">\n
+    <label for="radio">Click me</label>\n
+  </fieldset>\n
+</form>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- meter tag -->
+
+    <string name="meter"><i>\t\t METER TAG:</i></string>
+   <string name="meter_tag">\n\t\t Explanation:\n
+</string>
+   <string name="meter_tag1"><![CDATA[\t\t Control for entering a numeric value in a known range. The HTML
+<meter> Element represents either a scalar value within a known
+range or a fractional value. \n
+]]></string>
+    <string name="meter_attr">Attributes (modifiers):\n\n<![CDATA[high | low | max | min | optimum | value | form + global attributes
+]]>\n</string>
+   <string name="meter_tag2">Syntax:\n\n<![CDATA[
+<meter> .... </meter>]]>\n
+   </string>\n
+   <string name="meter_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<p>Heat the oven to <meter min="200" max="500"
+value="350">350 degrees</meter>.</p>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- OPTgroup tag -->
+
+    <string name="optgroup"><i>\t\t OPTGROUP TAG:</i></string>
+   <string name="optgroup_tag">\n\t\t Explanation:\n
+</string>
+   <string name="optgroup_tag1"><![CDATA[\t\t Group of option. In a Web form, the HTML <optgroup> element
+creates a grouping of options within a <select> element. \n
+]]></string>
+    <string name="optgroup_attr">Attributes (modifiers):\n\n<![CDATA[disabled | label + global attributes
+]]>\n</string>
+   <string name="optgroup_tag2">Syntax:\n\n<![CDATA[
+<optgroup> .... </optgroup>]]>\n
+   </string>\n
+   <string name="optgroup_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<select>\n
+  <optgroup label="Group 1">\n
+    <option>Option 1.1</option>\n
+  </optgroup>\n
+  <optgroup label="Group 2">\n
+    <option>Option 2.1</option>\n
+    <option>Option 2.2</option>\n
+  </optgroup>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- option tag -->
+
+    <string name="option"><i>\t\t OPTION TAG:</i></string>
+   <string name="option_tag">\n\t\t Explanation:\n
+</string>
+   <string name="option_tag1"><![CDATA[\t\t Single option within a select control. In a Web form, the HTML
+<option> element is used to create a control representing an item
+within a <select>, an <optgroup> or a <datalist> HTML5 element. \n
+]]></string>
+    <string name="option_attr">Attributes (modifiers):\n\n<![CDATA[ disabled | label | selected | value + global attributes
+]]>\n</string>
+   <string name="option_tag2">Syntax:\n\n<![CDATA[
+<option> .... </option>]]>\n
+   </string>\n
+   <string name="option_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<select name="select">\n
+  <option value="value1">Value 1</option>\n
+  <option value="value2" selected>Value\n
+2</option>\n
+  <option value="value3">Value 3</option>\n
+</select>\n
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- OUTPUT tag -->
+
+    <string name="output"><i>\t\t OUTPUT TAG:</i></string>
+   <string name="output_tag">\n\t\t Explanation:\n
+</string>
+   <string name="output_tag1"><![CDATA[\t\t Contains the results of a calculation. The HTML <output> element
+represents the result of a calculation or user action. \n
+]]></string>
+    <string name="output_attr">Attributes (modifiers):\n\n<![CDATA[form | for | name + global attributes
+]]>\n</string>
+   <string name="output_tag2">Syntax:\n\n<![CDATA[
+<output> .... </output>]]>\n
+   </string>\n
+   <string name="output_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<form  oninput="result.value=parseInt(a.value)+parseI
+nt(b.value)">\n
+    <input type="range" name="b" value="50" />\n
++
+    <input type="number" name="a" value="10"
+/> =\n
+    <output name="result">60</output>\n
+</form>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- progress tag -->
+
+    <string name="progress"><i>\t\t PROGRESS TAG:</i></string>
+   <string name="progress_tag">\n\t\t Explanation:\n
+</string>
+   <string name="progress_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="progress_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="progress_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="progress_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- select tag -->
+
+    <string name="select"><i>\t\t SELECT TAG:</i></string>
+   <string name="select_tag">\n\t\t Explanation:\n
+</string>
+   <string name="select_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="select_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="select_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="select_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- textarea tag -->
+
+    <string name="textarea"><i>\t\t TEXTAREA TAG:</i></string>
+   <string name="textarea_tag">\n\t\t Explanation:\n
+</string>
+   <string name="textarea_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="textarea_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="textarea_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="textarea_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<textarea>  address  </textarea>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- embed tag -->
+
+    <string name="embed"><i>\t\t EMBED TAG:</i></string>
+   <string name="embed_tag">\n\t\t Explanation:\n
+</string>
+   <string name="embed_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="embed_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="embed_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="embed_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- iframe tag -->
+
+    <string name="iframe"><i>\t\t IFRAME TAG:</i></string>
+   <string name="iframe_tag">\n\t\t Explanation:\n
+</string>
+   <string name="iframe_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="iframe_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="iframe_tag2">Syntax:\n\n<![CDATA[
+<iframe> .... </iframe>]]>\n
+   </string>\n
+   <string name="iframe_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<iframe> </iframe>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- img tag -->
+
+    <string name="img"><i>\t\t IMG TAG:</i></string>
+   <string name="img_tag">\n\t\t Explanation:\n
+</string>
+   <string name="img_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="img_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="img_tag2">Syntax:\n\n<![CDATA[
+<img> .... </img>]]>\n
+   </string>\n
+   <string name="img_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+<img src=""> </img>
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+
+    <!-- object tag -->
+
+    <string name="object"><i>\t\t OBJECT TAG:</i></string>
+   <string name="object_tag">\n\t\t Explanation:\n
+</string>
+   <string name="object_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="object_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="object_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="object_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- PARAM tag -->
+
+    <string name="param"><i>\t\t PARAM TAG:</i></string>
+   <string name="param_tag">\n\t\t Explanation:\n
+</string>
+   <string name="param_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="param_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="param_tag2">Syntax:\n\n<![CDATA[
+<param> .... </param>]]>\n
+   </string>\n
+   <string name="param_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- source tag -->
+
+    <string name="source"><i>\t\t SOURCE TAG:</i></string>
+   <string name="source_tag">\n\t\t Explanation:\n
+</string>
+   <string name="source_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="source_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="source_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="source_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+
+    <!-- AREA tag -->
+
+    <string name="area"><i>\t\t AREA TAG:</i></string>
+   <string name="area_tag">\n\t\t Explanation:\n
+</string>
+   <string name="area_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="area_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="area_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="area_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!--audio  tag -->
+
+    <string name="audio"><i>\t\t AUDIO TAG:</i></string>
+   <string name="audio_tag">\n\t\t Explanation:\n
+</string>
+   <string name="audio_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="audio_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="audio_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="audio_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- map tag -->
+
+    <string name="map"><i>\t\t MAP TAG:</i></string>
+   <string name="map_tag">\n\t\t Explanation:\n
+</string>
+   <string name="map_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="map_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="map_tag2">Syntax:\n\n<![CDATA[
+<map> .... </map>]]>\n
+   </string>\n
+   <string name="map_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- track tag -->
+
+    <string name="track"><i>\t\t TRACK TAG:</i></string>
+   <string name="track_tag">\n\t\t Explanation:\n
+</string>
+   <string name="track_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="track_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="track_tag2">Syntax:\n\n<![CDATA[
+<track> .... </track>]]>\n
+   </string>\n
+   <string name="track_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- video tag -->
+
+    <string name="video"><i>\t\t CAPTION TAG:</i></string>
+   <string name="video_tag">\n\t\t Explanation:\n
+</string>
+   <string name="video_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="video_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="video_tag2">Syntax:\n\n<![CDATA[
+<video> .... </video>]]>\n
+   </string>\n
+   <string name="video_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- details tag -->
+
+    <string name="detail"><i>\t\t DETAILS TAG:</i></string>
+   <string name="detail_tag">\n\t\t Explanation:\n
+</string>
+   <string name="detail_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="detail_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="detail_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="detail_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- dialog tag -->
+
+    <string name="dialog"><i>\t\t DIALOG TAG:</i></string>
+   <string name="dialog_tag">\n\t\t Explanation:\n
+</string>
+   <string name="dialog_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="dialog_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="dialog_tag2">Syntax:\n\n<![CDATA[
+<dialog> .... </dialog>]]>\n
+   </string>\n
+   <string name="dialog_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- menu tag -->
+
+    <string name="manu"><i>\t\t MENU TAG:</i></string>
+   <string name="menu_tag">\n\t\t Explanation:\n
+</string>
+   <string name="menu_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="menu_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="menu_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="menu_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- summary tag -->
+
+    <string name="summary"><i>\t\t SUMMARY TAG:</i></string>
+   <string name="summary_tag">\n\t\t Explanation:\n
+</string>
+   <string name="summary_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="summary_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="summary_tag2">Syntax:\n\n<![CDATA[
+<summary> .... </summary>]]>\n
+   </string>\n
+   <string name="summary_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- canvas tag -->
+
+    <string name="canvas"><i>\t\t CANVAS TAG:</i></string>
+   <string name="canvas_tag">\n\t\t Explanation:\n
+</string>
+   <string name="canvas_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="canvas_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="canvas_tag2">Syntax:\n\n<![CDATA[
+<canvas> .... </canvas>]]>\n
+   </string>\n
+   <string name="canvas_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- noscript tag -->
+
+    <string name="noscript"><i>\t\t NOSCRIPT TAG:</i></string>
+   <string name="noscript_tag">\n\t\t Explanation:\n
+</string>
+   <string name="noscript_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="noscript_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="noscript_tag2">Syntax:\n\n<![CDATA[
+<caption> .... </caption>]]>\n
+   </string>\n
+   <string name="noscript_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+
+</body>\n
+  </html>
+
+]]></string>
+
+
+
+    <!-- script tag -->
+
+    <string name="script"><i>\t\t SCRIPT TAG:</i></string>
+   <string name="script_tag">\n\t\t Explanation:\n
+</string>
+   <string name="script_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
+Element) represents the title of a table. \n
+]]></string>
+    <string name="script_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+]]>\n</string>
+   <string name="script_tag2">Syntax:\n\n<![CDATA[
+<script> .... </script>]]>\n
+   </string>\n
+   <string name="script_tag3">Example:\n\n<![CDATA[
+  <html>\n
+  <head><title></title>\n
+  </head>\n
+  <body>\n
+
+</body>\n
+  </html>
+
+]]></string>
+
 </resources>
