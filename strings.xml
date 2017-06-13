@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Html tags list</string>
+    <string name="app_name">HTML 5 TAGS </string>
 
     <string name="html"><i>\t\t HTML TAG:</i></string>
    <string name="html_tag">\n\t\tExplanation:\n
@@ -1482,10 +1482,7 @@ program. \n
     <string name="small"><i>\t\t SMALL TAG:</i></string>
    <string name="small_tag">\n\t\t Explanation:\n
 </string>
-   <string name="small_tag1"><![CDATA[\t\t Small text, such as တne print. The HTML Small Element (<small>)
-makes the text font size one size smaller (for example, from large to
-medium, or from small to x-small) down to the browser's minimum
-font size. \n
+   <string name="small_tag1"><![CDATA[\t\t  \n
 ]]></string>
     <string name="small_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
 ]]>\n</string>
@@ -1833,15 +1830,7 @@ or more. \n
     <string name="tbody"><i>\t\t TBODY TAG:</i></string>
    <string name="tbody_tag">\n\t\t Explanation:\n
 </string>
-   <string name="tbody_tag1"><![CDATA[\t\Contains rows that hold the table's data. The HTML Table Body
-Element (<tbody>) deတnes one or more <tr> element data-rows to be
-the body of its parent <table> element (as long as no <tr> elements
-are immediate children of that table element.) In conjunction with a
-preceding <thead> and/or <tfoot> element, <tbody> provides
-additional semantic information for devices such as printers and
-displays. Of the parent table's child elements, <tbody> represents the
-content which, when longer than a page, will most likely di†er for
-each page printed; \n
+   <string name="tbody_tag1"><![CDATA[\t\\n
 ]]></string>
     <string name="tbody_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
 ]]>\n</string>
@@ -1855,15 +1844,15 @@ each page printed; \n
   <body>\n
 <table>\n
 <thead>\n
-     <tr> ...header information... </tr>\n
+     <tr> ..header information... </tr>\n
 </thead>\n
 <tfoot>\n
-     <tr> ...footer information... </tr>\n
+     <tr> ..footer information... </tr>\n
 </tfoot>\n
 <tbody>\n
-     <tr> ...first row of block one data...\n
+     <tr> ..first row of block one data...\n
 </tr>\n
-     <tr> ...second row of block one data...\n
+     <tr> ..second row of block one data...\n
 </tr>\n
 </tbody\n>
   </table>\n
@@ -2436,21 +2425,19 @@ nt(b.value)">\n
     <string name="progress"><i>\t\t PROGRESS TAG:</i></string>
    <string name="progress_tag">\n\t\t Explanation:\n
 </string>
-   <string name="progress_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="progress_tag1"><![CDATA[\t\t   \n
 ]]></string>
-    <string name="progress_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="progress_attr">Attributes (modifiers):\n\n<![CDATA[max | value + global attributes
 ]]>\n</string>
    <string name="progress_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<progress> .... </progress>]]>\n
    </string>\n
    <string name="progress_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
-
+<progress value="70" max="100">70 %</progress>
 </body>\n
   </html>
 
@@ -2463,21 +2450,28 @@ Element) represents the title of a table. \n
     <string name="select"><i>\t\t SELECT TAG:</i></string>
    <string name="select_tag">\n\t\t Explanation:\n
 </string>
-   <string name="select_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="select_tag1"><![CDATA[\t\t Control for selecting from multiple options. The HTML select
+(<select>) element represents a control that presents a menu of
+options. The options within the menu are represented by <option>
+elements, which can be grouped by <optgroup> elements. Options
+can be pre-selected for the user. \n
 ]]></string>
-    <string name="select_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="select_attr">Attributes (modifiers):\n\n<![CDATA[autofocus | size | disabled | form | multiple | name | required + global attributes
 ]]>\n</string>
    <string name="select_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<select><option> .... </option></select>]]>\n
    </string>\n
    <string name="select_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
-
+<select name="select">\n
+  <option value="value1">Value 1</option>\n
+  <option value="value2" selected>Value \n
+2</option>\n
+  <option value="value3">Value 3</option>\n
+</select>
 </body>\n
   </html>
 
@@ -2490,20 +2484,23 @@ Element) represents the title of a table. \n
     <string name="textarea"><i>\t\t TEXTAREA TAG:</i></string>
    <string name="textarea_tag">\n\t\t Explanation:\n
 </string>
-   <string name="textarea_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="textarea_tag1"><![CDATA[\t\t Multiline free-form text input. The HTML <textarea> element
+represents a multi-line plain-text editing control. \n
 ]]></string>
-    <string name="textarea_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="textarea_attr">Attributes (modifiers):\n\n<![CDATA[autocomplete | autofocus | cols | disabled | dirname | form | name |
+readonly | required | rows | maxlength | minlength | placeholder |
+wrap | selectionDirection | selectionEnd | selectionStart | spellcheck + global attributes
 ]]>\n</string>
    <string name="textarea_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<textarea> .... </textarea>]]>\n
    </string>\n
    <string name="textarea_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-<textarea>  address  </textarea>
+<textarea name="textarea" rows="10"
+cols="50">Write something here</textarea>
 </body>\n
   </html>
 
@@ -2516,21 +2513,21 @@ Element) represents the title of a table. \n
     <string name="embed"><i>\t\t EMBED TAG:</i></string>
    <string name="embed_tag">\n\t\t Explanation:\n
 </string>
-   <string name="embed_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="embed_tag1"><![CDATA[\t\t Integration point for an external (typically non-HTML) application or
+interactive content. \n
 ]]></string>
-    <string name="embed_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="embed_attr">Attributes (modifiers):\n\n<![CDATA[height | src | type | width + global attributes
 ]]>\n</string>
    <string name="embed_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<embed> .... </embed>]]>\n
    </string>\n
    <string name="embed_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
-
+<embed type="video/quicktime" src="movie.mov" \n
+width="640" height="480">
 </body>\n
   </html>
 
@@ -2543,10 +2540,19 @@ Element) represents the title of a table. \n
     <string name="iframe"><i>\t\t IFRAME TAG:</i></string>
    <string name="iframe_tag">\n\t\t Explanation:\n
 </string>
-   <string name="iframe_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="iframe_tag1"><![CDATA[\t\t Nested browser frame. The HTML Inline Frame Element (<iframe>)
+represents a nested browsing context, e†ectively embedding
+another HTML page into the current page. In HTML 4.01, a document
+may contain a head and a body or a head and a frameset, but not
+both a body and a frameset. However, an <iframe> can be used
+within a normal document body. Each browsing context has its own
+session history and active document. The browsing context that
+contains the embedded content is called the parent browsing
+context. The top-level browsing context (which has no parent) is
+typically the browser window. \n
 ]]></string>
-    <string name="iframe_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="iframe_attr">Attributes (modifiers):\n\n<![CDATA[allowfullscreen | src | name | sandbox | seamlesss | width | height |
+srcdoc | referrerpolicy + global attributes
 ]]>\n</string>
    <string name="iframe_tag2">Syntax:\n\n<![CDATA[
 <iframe> .... </iframe>]]>\n
@@ -2556,7 +2562,11 @@ Element) represents the title of a table. \n
   <head><title></title>\n
   </head>\n
   <body>\n
-<iframe> </iframe>
+<iframe src="http:www.example.com/iframe‐
+example" width="400" height="300">
+  <p>Your browser does not support iframes.
+</p>
+</iframe>
 </body>\n
   </html>
 
@@ -2569,10 +2579,11 @@ Element) represents the title of a table. \n
     <string name="img"><i>\t\t IMG TAG:</i></string>
    <string name="img_tag">\n\t\t Explanation:\n
 </string>
-   <string name="img_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="img_tag1"><![CDATA[\t\t An image. The HTML <img> element represents an image in the
+document. \n
 ]]></string>
-    <string name="img_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="img_attr">Attributes (modifiers):\n\n<![CDATA[alt | src | height | ismap | usemap | width | crossorigin | longdesc |
+referrerpolicy | sizes | srcset + global attributes
 ]]>\n</string>
    <string name="img_tag2">Syntax:\n\n<![CDATA[
 <img> .... </img>]]>\n
@@ -2596,20 +2607,26 @@ Element) represents the title of a table. \n
     <string name="object"><i>\t\t OBJECT TAG:</i></string>
    <string name="object_tag">\n\t\t Explanation:\n
 </string>
-   <string name="object_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="object_tag1"><![CDATA[\t\tExternal resource such as an image, iframe or plugin. The HTML
+Embedded Object Element (<object>) represents an external
+resource, which can be treated as an image, a nested browsing
+context, or a resource to be handled by a plugin. \n
 ]]></string>
-    <string name="object_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="object_attr">Attributes (modifiers):\n\n<![CDATA[data | height | type | usemap | width | form | name | typemustmatch |
+usemap + global attributes
 ]]>\n</string>
    <string name="object_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<object> .... </object>]]>\n
    </string>\n
    <string name="object_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<object data="move.swf" type="application/x‐ \n
+shockwave‐flash">\n
+  <param name="foo" value="bar">\n
+</object>
 </body>\n
   </html>
 
@@ -2622,10 +2639,10 @@ Element) represents the title of a table. \n
     <string name="param"><i>\t\t PARAM TAG:</i></string>
    <string name="param_tag">\n\t\t Explanation:\n
 </string>
-   <string name="param_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="param_tag1"><![CDATA[\t\t Parameters for the parent object. The HTML <param> Element (or
+HTML Parameter Element) deတnes parameters for <object>. \n
 ]]></string>
-    <string name="param_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="param_attr">Attributes (modifiers):\n\n<![CDATA[name | value + global attributes
 ]]>\n</string>
    <string name="param_tag2">Syntax:\n\n<![CDATA[
 <param> .... </param>]]>\n
@@ -2635,7 +2652,10 @@ Element) represents the title of a table. \n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<object data="move.swf" type="application/x‐\n
+shockwave‐flash">\n
+  <param name="foo" value="bar">\n
+</object>
 </body>\n
   </html>
 
@@ -2648,20 +2668,44 @@ Element) represents the title of a table. \n
     <string name="source"><i>\t\t SOURCE TAG:</i></string>
    <string name="source_tag">\n\t\t Explanation:\n
 </string>
-   <string name="source_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="source_tag1"><![CDATA[\t\t Alternative sources for parent video or audio elements. The HTML
+<source> element specifies multiple media resources for either the
+<picture>, the <audio> or the <video> element. \n
 ]]></string>
-    <string name="source_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="source_attr">Attributes (modifiers):\n\n<![CDATA[media | src | type | sizes | srcset + global attributes
 ]]>\n</string>
    <string name="source_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+< img src> .... </img>]]>\n
    </string>\n
    <string name="source_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<video controls poster="/images/sample.gif">\n
+   <source src="sample.mp4" type="video/mp4">\n
+   <source src="sample.ogv" type="video/ogv">\n
+   <track kind="captions"\n
+src="sampleCaptions.vtt" srclang="en">\n
+   <track kind="descriptions" \n
+src="sampleDescriptions.vtt" srclang="en">\n
+   <track kind="chapters" \n
+src="sampleChapters.vtt" srclang="en">\n
+   <track kind="subtitles" \n
+src="sampleSubtitles_de.vtt" srclang="de">\n
+   <track kind="subtitles" \n
+src="sampleSubtitles_en.vtt" srclang="en">\n
+   <track kind="subtitles" \n
+src="sampleSubtitles_ja.vtt" srclang="ja">\n
+   <track kind="subtitles" \n
+src="sampleSubtitles_oz.vtt" srclang="oz">\n
+   <track kind="metadata" src="keyStage1.vtt"\n
+srclang="en" label="Key Stage 1">\n
+   <track kind="metadata" src="keyStage2.vtt"\n
+srclang="en" label="Key Stage 2">\n
+   <track kind="metadata" src="keyStage3.vtt"\n
+srclang="en" label="Key Stage 3">\n
+</video>
 </body>\n
   </html>
 
@@ -2675,20 +2719,25 @@ Element) represents the title of a table. \n
     <string name="area"><i>\t\t AREA TAG:</i></string>
    <string name="area_tag">\n\t\t Explanation:\n
 </string>
-   <string name="area_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="area_tag1"><![CDATA[\t\t Hyperlink with some text and a corresponding area on an image
+map, or a dead area on an image map. \n
 ]]></string>
-    <string name="area_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="area_attr">Attributes (modifiers):\n\n<![CDATA[alt | coords | download | href | hre†ang | media | rel | referrerpolicy |
+shape | target | type + global attributes
 ]]>\n</string>
    <string name="area_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<area> .... </area>]]>\n
    </string>\n
    <string name="area_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<map name="primary">\n
+  <area shape="circle" coords="200,250,25"\n
+href="another.htm" /> \n
+  <area shape="default" nohref />\n
+</map>
 </body>\n
   </html>
 
@@ -2701,20 +2750,28 @@ Element) represents the title of a table. \n
     <string name="audio"><i>\t\t AUDIO TAG:</i></string>
    <string name="audio_tag">\n\t\t Explanation:\n
 </string>
-   <string name="audio_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="audio_tag1"><![CDATA[\t\t Sound or audio stream. The HTML <audio> element is used to embed
+sound content in documents. It may contain one or more audio
+sources, represented using the src attribute or the <source>
+element; the browser will choose the most suitable one. \n
 ]]></string>
-    <string name="audio_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="audio_attr">Attributes (modifiers):\n\n<![CDATA[autoplay | bu†ered | preload | loop | controls | src | muted | played |
+volume + global attributes
 ]]>\n</string>
    <string name="audio_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<audio> .... </audio>]]>\n
    </string>\n
    <string name="audio_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<audio
+src="http://developer.mozilla.org/@api/deki/fi\n
+les/2926/=AudioTest_(1).ogg" autoplay>\n
+  Your browser does not support the \n
+<code>audio</code> element.\n
+</audio>\n
 </body>\n
   </html>
 
@@ -2727,10 +2784,11 @@ Element) represents the title of a table. \n
     <string name="map"><i>\t\t MAP TAG:</i></string>
    <string name="map_tag">\n\t\t Explanation:\n
 </string>
-   <string name="map_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="map_tag1"><![CDATA[\t\t Image map for adding hyperlinks to parts of an image. The HTML
+<map> element is used with <area> elements to deတne an image map
+(a clickable link area).(a clickable link area). \n
 ]]></string>
-    <string name="map_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="map_attr">Attributes (modifiers):\n\n<![CDATA[name + global attributes
 ]]>\n</string>
    <string name="map_tag2">Syntax:\n\n<![CDATA[
 <map> .... </map>]]>\n
@@ -2740,7 +2798,11 @@ Element) represents the title of a table. \n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<map name="example‐map‐1">\n
+  <area shape="circle" coords="200,250,25"\n
+href="another.htm" />\n
+  <area shape="default" />\n
+</map>\n
 </body>\n
   </html>
 
@@ -2753,10 +2815,13 @@ Element) represents the title of a table. \n
     <string name="track"><i>\t\t TRACK TAG:</i></string>
    <string name="track_tag">\n\t\t Explanation:\n
 </string>
-   <string name="track_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="track_tag1"><![CDATA[\t\t Speciတes external timing track for media element. The HTML <track>
+element is used as a child of the media elements—<audio> and
+<video>. It lets you specify timed text tracks (or time-based data), for
+example to automatically handle subtitles. The tracks are formatted
+in WebVTT format (.vtt files) — Web Video Text Tracks.  \n
 ]]></string>
-    <string name="track_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="track_attr">Attributes (modifiers):\n\n<![CDATA[default | kind | label | src | srclang + global attributes
 ]]>\n</string>
    <string name="track_tag2">Syntax:\n\n<![CDATA[
 <track> .... </track>]]>\n
@@ -2766,7 +2831,16 @@ Element) represents the title of a table. \n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<video controls poster="/images/sample.gif">\n
+   <source src="sample.mp4" type="video/mp4">\n
+   <source src="sample.ogv" type="video/ogv">\n
+   <track kind="captions"\n
+src="sampleCaptions.vtt" srclang="en">\n
+   <track kind="descriptions"\n
+src="sampleDescriptions.vtt" srclang="en">\n
+   <track kind="metadata" src="keyStage3.vtt"\n
+srclang="en" label="Key Stage 3">\n
+</video>\n
 </body>\n
   </html>
 
@@ -2776,13 +2850,15 @@ Element) represents the title of a table. \n
 
     <!-- video tag -->
 
-    <string name="video"><i>\t\t CAPTION TAG:</i></string>
+    <string name="video"><i>\t\t VIDEO TAG:</i></string>
    <string name="video_tag">\n\t\t Explanation:\n
 </string>
-   <string name="video_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="video_tag1"><![CDATA[\t\t Used for playing videos or movies. Use the HTML <video> element to
+embed video content in a document. The video element contains one
+or more video sources. \n
 ]]></string>
-    <string name="video_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="video_attr">Attributes (modifiers):\n\n<![CDATA[autoplay | controls | height | loop | poster | preload | src | width |
+bu†ered | crossorigin | muted | played + global attributes
 ]]>\n</string>
    <string name="video_tag2">Syntax:\n\n<![CDATA[
 <video> .... </video>]]>\n
@@ -2793,6 +2869,7 @@ Element) represents the title of a table. \n
   </head>\n
   <body>\n
 
+</video>\n
 </body>\n
   </html>
 
@@ -2805,20 +2882,23 @@ Element) represents the title of a table. \n
     <string name="detail"><i>\t\t DETAILS TAG:</i></string>
    <string name="detail_tag">\n\t\t Explanation:\n
 </string>
-   <string name="detail_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="detail_tag1"><![CDATA[\t\tContains additional information, such as the contents of an
+accordian view. The HTML Details Element (<details>) is used as a
+disclosure widget from which the user can retrieve additional
+information. \n
 ]]></string>
-    <string name="detail_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="detail_attr">Attributes (modifiers):\n\n<![CDATA[open + global attributes
 ]]>\n</string>
    <string name="detail_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<details> .... </details>]]>\n
    </string>\n
    <string name="detail_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<details><summary>Some details</summary>\n
+<p>More info about the details.</p></details>\n
 </body>\n
   </html>
 
@@ -2831,10 +2911,12 @@ Element) represents the title of a table. \n
     <string name="dialog"><i>\t\t DIALOG TAG:</i></string>
    <string name="dialog_tag">\n\t\t Explanation:\n
 </string>
-   <string name="dialog_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="dialog_tag1"><![CDATA[\t\tThe HTML <dialog> element represents a dialog box or other
+interactive component, such as an inspector or window. <form>
+elements can be integrated within a dialog by specifying them with
+the attribute method="dialog". \n
 ]]></string>
-    <string name="dialog_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="dialog_attr">Attributes (modifiers):\n\n<![CDATA[open + global attributes
 ]]>\n</string>
    <string name="dialog_tag2">Syntax:\n\n<![CDATA[
 <dialog> .... </dialog>]]>\n
@@ -2844,8 +2926,9 @@ Element) represents the title of a table. \n
   <head><title></title>\n
   </head>\n
   <body>\n
-
-
+<dialog open>\n
+  <p>Greetings, one and all!</p>\n
+</dialog>\n
 </body>\n
   </html>
 
@@ -2858,10 +2941,13 @@ Element) represents the title of a table. \n
     <string name="manu"><i>\t\t MENU TAG:</i></string>
    <string name="menu_tag">\n\t\t Explanation:\n
 </string>
-   <string name="menu_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="menu_tag1"><![CDATA[\t\tSet of commands. The HTML <menu> element represents a group of
+commands that a user can perform or activate. This includes both list
+menus, which might appear across the top of a screen, as well as
+context menus, such as those that might appear underneath a
+button after it has been clicked. \n
 ]]></string>
-    <string name="menu_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="menu_attr">Attributes (modifiers):\n\n<![CDATA[label | type + global attributes
 ]]>\n</string>
    <string name="menu_tag2">Syntax:\n\n<![CDATA[
 <caption> .... </caption>]]>\n
@@ -2871,7 +2957,12 @@ Element) represents the title of a table. \n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<menu type="context" id="popup‐menu">
+  <menuitem>Action</menuitem>\n
+  <menuitem>Another action</menuitem>\n
+  <hr>\n
+  <menuitem>Separated action</menuitem>\n
+</menu>\n
 </body>\n
   </html>
 
@@ -2884,8 +2975,9 @@ Element) represents the title of a table. \n
     <string name="summary"><i>\t\t SUMMARY TAG:</i></string>
    <string name="summary_tag">\n\t\t Explanation:\n
 </string>
-   <string name="summary_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="summary_tag1"><![CDATA[\t\tCaption of a details element. The HTML summary element
+(<summary>) is used as a summary, caption, or legend for the
+content of a <details> element. \n
 ]]></string>
     <string name="summary_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
 ]]>\n</string>
@@ -2897,8 +2989,8 @@ Element) represents the title of a table. \n
   <head><title></title>\n
   </head>\n
   <body>\n
-
-
+<details><summary>Some details</summary>\n
+<p>More info about the details.</p></details>\n
 </body>\n
   </html>
 
@@ -2911,10 +3003,12 @@ Element) represents the title of a table. \n
     <string name="canvas"><i>\t\t CANVAS TAG:</i></string>
    <string name="canvas_tag">\n\t\t Explanation:\n
 </string>
-   <string name="canvas_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="canvas_tag1"><![CDATA[\t\t Bitmap which is editable by client side scripts. The HTML <canvas>
+Element can be used to draw graphics via scripting (usually
+JavaScript). For example, it can be used to draw graphs, make photo
+compositions or even perform animations.\n
 ]]></string>
-    <string name="canvas_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="canvas_attr">Attributes (modifiers):\n\n<![CDATA[height | width + global attributes
 ]]>\n</string>
    <string name="canvas_tag2">Syntax:\n\n<![CDATA[
 <canvas> .... </canvas>]]>\n
@@ -2924,7 +3018,9 @@ Element) represents the title of a table. \n
   <head><title></title>\n
   </head>\n
   <body>\n
-
+<canvas id="canvas" width="300"\n
+height="300">An alternative text describing
+what your canvas displays.\n</canvas>\n
 </body>\n
   </html>
 
@@ -2937,21 +3033,26 @@ Element) represents the title of a table. \n
     <string name="noscript"><i>\t\t NOSCRIPT TAG:</i></string>
    <string name="noscript_tag">\n\t\t Explanation:\n
 </string>
-   <string name="noscript_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="noscript_tag1"><![CDATA[\t\tContains elements that are part of the document only if scripting is
+disabled. The HTML <noscript> Element defines a section of html to
+be inserted if a script type on the page is unsupported or if scripting
+is currently turned o† in the browser. \n
 ]]></string>
     <string name="noscript_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
 ]]>\n</string>
    <string name="noscript_tag2">Syntax:\n\n<![CDATA[
-<caption> .... </caption>]]>\n
+<noscript> .... </noscript>]]>\n
    </string>\n
    <string name="noscript_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
   </head>\n
   <body>\n
-
-
+<noscript>\n
+  <a
+href="https://DIGITAL.COM/">External
+Link</a>\n
+</noscript>\n
 </body>\n
   </html>
 
@@ -2964,20 +3065,22 @@ Element) represents the title of a table. \n
     <string name="script"><i>\t\t SCRIPT TAG:</i></string>
    <string name="script_tag">\n\t\t Explanation:\n
 </string>
-   <string name="script_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
-Element) represents the title of a table. \n
+   <string name="script_tag1"><![CDATA[\t\t Inline or linked client side scripts. The HTML Script Element (<script>)
+is used to embed or reference an executable script within an HTML
+or XHTML document. \n
 ]]></string>
-    <string name="script_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
+    <string name="script_attr">Attributes (modifiers):\n\n<![CDATA[async | type | defer | src | charset | integrity | text | language | defer |
+crossorigin + global attributes
 ]]>\n</string>
    <string name="script_tag2">Syntax:\n\n<![CDATA[
-<script> .... </script>]]>\n
+<script src="javascript.js"></script>]]>\n
    </string>\n
    <string name="script_tag3">Example:\n\n<![CDATA[
   <html>\n
   <head><title></title>\n
+  <script src="javascript.js"></script>\n
   </head>\n
   <body>\n
-
 </body>\n
   </html>
 
