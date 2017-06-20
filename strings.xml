@@ -2,6 +2,7 @@
     <string name="app_name">HTML 5 TAGS </string>
 
     <string name="html"><i>\t\t HTML TAG:</i></string>
+    <string name="main_html"><![CDATA[<html>...</html>]]></string>
    <string name="html_tag">\n\t\tExplanation:\n
 </string>
    <string name="html_tag1"><![CDATA[\t\t\t
@@ -28,6 +29,7 @@ with HTML, it is required to be opened and closed in XHTML.  \n
     <!--base tag -->
 
     <string name="base"><i>\t\t BASE TAG:</i></string>
+    <string name="main_base"><![CDATA[<base>...</base>]]></string>
    <string name="base_tag">\n\t\tExplanation:\n
 </string>
    <string name="base_tag1"><![CDATA[\t\t\t
@@ -55,6 +57,7 @@ in a document.  \n
     <!-- head tag  -->
 
     <string name="head"><i>\t\t HEAD TAG:</i></string>
+    <string name="main_head"><![CDATA[<head>...</head>]]></string>
    <string name="head_tag">\n\t\tExplanation:\n
 </string>
    <string name="head_tag1"><![CDATA[\t\t\t
@@ -81,6 +84,7 @@ scripts and style sheets.  \n
     <!--  link tag  -->
 
     <string name="link"><i>\t\t LINK TAG:</i></string>
+    <string name="main_link"><![CDATA[<link>...</link>]]></string>
    <string name="link_tag">\n\t\tExplanation:\n
 </string>
    <string name="link_tag1"><![CDATA[\t\t\t
@@ -110,6 +114,7 @@ global attributes]]>\n</string>
     <!--  meta tag  -->
 
     <string name="meta"><i>\t\t META TAG:</i></string>
+    <string name="main_meta"><![CDATA[<meta>...</meta>]]></string>
    <string name="meta_tag">\n\t\t Explanation:\n
 </string>
    <string name="meta_tag1"><![CDATA[
@@ -136,6 +141,7 @@ global attributes]]>\n</string>
     <!--  style tag  -->
 
     <string name="style"><i>\t\t STYLE TAG:</i></string>
+    <string name="main_style"><![CDATA[<style>...</style>]]></string>
    <string name="style_tag">\n\t\t Explanation:\n
 </string>
    <string name="style_tag1"><![CDATA[ \t\t
@@ -161,6 +167,7 @@ element are expected to be CSS.
 
     <!--title tag -->
     <string name="title"><i>\t\t TITLE TAG:</i></string>
+    <string name="main_title"><![CDATA[<title>...</title>]]></string>
    <string name="title_tag">\n\t\t Explanation:\n
 </string>
    <string name="title_tag1"><![CDATA[\t\tHTML <title> tag define a document title that display on browser header. <title> tag define on head section in document.
@@ -185,6 +192,7 @@ element are expected to be CSS.
     <!--Address tag -->
 
     <string name="addr"><i>\t\t ADDRESS TAG:</i></string>
+    <string name="main_address"><![CDATA[<address>...</address>]]></string>
    <string name="addr_tag">\n\t\t Explanation:\n
 </string>
    <string name="addr_tag1"><![CDATA[\t\tThe HTML <address> element supplies contact information for its
@@ -213,6 +221,7 @@ the whole document.\n
     <!--article tag -->
 
     <string name="article"><i>\t\t ARTICLE TAG:</i></string>
+    <string name="main_article"><![CDATA[<article>...</article>]]></string>
    <string name="article_tag">\n\t\t Explanation:\n
 </string>
    <string name="article_tag1"><![CDATA[\t\tSection of the page content, such as a blog or forum post. The HTML
@@ -254,6 +263,7 @@ Posted on <time datetime="2017‐05‐17
     <!--body tag -->
 
     <string name="body"><i>\t\t BODY TAG:</i></string>
+    <string name="main_body"><![CDATA[<body>...</body>]]></string>
    <string name="body_tag">\n\t\t Explanation:\n
 </string>
    <string name="body_tag1"><![CDATA[\t\tMain content of the document. The HTML <body> Element
@@ -282,6 +292,7 @@ onundo | onunload + global attributes
     <!--aside tag -->
 
     <string name="aside"><i>\t\t ASIDE TAG:</i></string>
+    <string name="main_aside"><![CDATA[<aside>...</aside>]]></string>
    <string name="aside_tag">\n\t\t Explanation:\n
 </string>
    <string name="aside_tag1"><![CDATA[\t\t such as a advertising or quotes.\n
@@ -309,6 +320,7 @@ hai smartglossa
     <!--footer tag -->
 
     <string name="footer"><i>\t\t FOOTER TAG:</i></string>
+    <string name="main_footer"><![CDATA[<footer>...</footer>]]></string>
    <string name="footer_tag">\n\t\t Explanation:\n
 </string>
    <string name="footer_tag1"><![CDATA[\t\tFooter of the current section. The HTML <footer> element
@@ -336,6 +348,7 @@ author of the section, copyright data or links to related documents \n
 
     <!--hsix tag -->
     <string name="hsixs"><i>H1 TO H6 tag:</i></string>
+    <string name="main_hsix"><![CDATA[<h1></h1>...<h6></h6>]]></string>
     <string name="hsix"><i>\t\t H1 TO H6 TAG:</i></string>
    <string name="hsix_tag">\n\t\t Explanation:\n
 </string>
@@ -367,6 +380,7 @@ the least.\n
     <!--header tag -->
 
     <string name="header"><i>\t\t HEADER TAG:</i></string>
+    <string name="main_header"><![CDATA[<header>...</header>]]></string>
    <string name="header_tag">\n\t\t Explanation:\n
 </string>
    <string name="header_tag1"><![CDATA[\t\t  \n
@@ -390,6 +404,7 @@ the least.\n
     <!--hgroup tag -->
 
     <string name="hgroup"><i>\t\t HGROUP TAG:</i></string>
+    <string name="main_hgroup"><![CDATA[<hgroup>...</hgroup>]]></string>
    <string name="hgroup_tag">\n\t\t Explanation:\n
 </string>
    <string name="hgroup_tag1"><![CDATA[\t\t The HTML <hgroup> Element (HTML Headings Group Element)
@@ -422,6 +437,7 @@ implicit or explicit section that it belongs to. \n
     <!--nav tag -->
 
     <string name="nav"><i>\t\t NAV TAG:</i></string>
+    <string name="main_nav"><![CDATA[<nav>...</nav>]]></string>
    <string name="nav_tag">\n\t\t Explanation:\n
 </string>
    <string name="nav_tag1"><![CDATA[\t\t A section of a page that links to other pages. The HTML <nav>
@@ -454,6 +470,7 @@ navigation links. \n
     <!--section tag -->
 
     <string name="section"><i>\t\t SECTION TAG:</i></string>
+    <string name="main_section"><![CDATA[<section>...</section>]]></string>
    <string name="section_tag">\n\t\t Explanation:\n
 </string>
    <string name="section_tag1"><![CDATA[\t\tContains of elements grouped by theme, for example a chapter or
@@ -483,6 +500,7 @@ content</p></section>
     <!--blockquote tag -->
 
     <string name="blockqoute"><i>\t\t BLOCKQUOTE TAG:</i></string>
+    <string name="main_blockqoute"><![CDATA[<blockquote>...</blockquote>]]></string>
    <string name="blockqoute_tag">\n\t\t Explanation:\n
 </string>
    <string name="blockqoute_tag1"><![CDATA[\t\tQuote from another source. The HTML <blockquote> Element (or
@@ -513,6 +531,7 @@ extended quotation .\n
     <!--br tag -->
 
     <string name="br"><i>\t\t BR TAG:</i></string>
+    <string name="main_br"><![CDATA[<br>...</br>]]></string>
    <string name="br_tag">\n\t\t Explanation:\n
 </string>
    <string name="br_tag1"><![CDATA[\t\tLine break. The HTML element line break <br> produces a line break
@@ -540,6 +559,7 @@ Street<br>tamilnadu</p>
     <!--dd tag -->
 
     <string name="dd"><i>\t\t DD TAG:</i></string>
+    <string name="main_dd"><![CDATA[<dd>...</dd>]]></string>
    <string name="dd_tag">\n\t\t Explanation:\n
 </string>
    <string name="dd_tag1"><![CDATA[\t\tDescription, definition, or value, part of a term- description group in
@@ -572,6 +592,7 @@ running a small business website</dd>
     <!--div tag -->
 
     <string name="div"><i>\t\t DIV TAG:</i></string>
+    <string name="main_div"><![CDATA[<div>...</div>]]></string>
    <string name="div_tag">\n\t\t Explanation:\n
 </string>
    <string name="div_tag1"><![CDATA[\t\tContainer or section with no semantic meaning. The HTML <div>
@@ -599,6 +620,7 @@ anything. \n
     <!--dl tag -->
 
     <string name="dl"><i>\t\t DL TAG:</i></string>
+    <string name="main_dl"><![CDATA[<dl>...</dl>]]></string>
    <string name="dl_tag">\n\t\t Explanation:\n
 </string>
    <string name="dl_tag1"><![CDATA[\t\tAn association list consisting of zero or more name-value groups (a
@@ -631,6 +653,7 @@ running a small business website</dd>\n
     <!--dt tag -->
 
     <string name="dt"><i>\t\t DT TAG:</i></string>
+    <string name="main_dt"><![CDATA[<dt>...</dt>]]></string>
    <string name="dt_tag">\n\t\t Explanation:\n
 </string>
    <string name="dt_tag1"><![CDATA[\t\tTerm, or name, part of a term-description group in a description list.
@@ -661,13 +684,14 @@ running a small business website</dd>\n
     <!-- figcaption tag -->
 
     <string name="figcaption"><i>\t\t FIGCAPTION TAG:</i></string>
+    <string name="main_figcaption"><![CDATA[<figcaption>...</figcaption>]]></string>
    <string name="figcaption_tag">\n\t\t Explanation:\n
 </string>
    <string name="figcaption_tag1"><![CDATA[\t\t Caption or legend for the တgure element. The HTML <တgcaption>
 element represents a caption or a legend associated with a figure or
 an illustration described by the rest of the data of the <figure>
 element which is its immediate ancestor which means <figcaption>
-can be the တrst or last element inside a <တgure> block. Also, the
+can be the first or last element inside a <figure> block. Also, the
 HTML Figcaption Element is optional; if not provided, then the parent
 တgure element will have no caption. \n
 ]]></string>
@@ -696,6 +720,7 @@ alt="An awesome picture">
     <!-- figure tag -->
 
     <string name="figure"><i>\t\t FIGURE TAG:</i></string>
+    <string name="main_figure"><![CDATA[<figure>...</figure>]]></string>
    <string name="figure_tag">\n\t\t Explanation:\n
 </string>
    <string name="figure_tag1"><![CDATA[\t\tContains elements related to single concept, such as an illustration
@@ -727,6 +752,7 @@ alt="An awesome picture">
     <!-- hr tag -->
 
     <string name="hr"><i>\t\t HR TAG:</i></string>
+    <string name="main_hr"><![CDATA[<hr>...</hr>]]></string>
    <string name="hr_tag">\n\t\t Explanation:\n
 </string>
    <string name="hr_tag1"><![CDATA[\t\tParagraph-level thematic break. The HTML <hr> element represents
@@ -753,6 +779,7 @@ change of scene in a story, or a shift of topic with a section).  \n
     <!-- li tag -->
 
     <string name="li"><i>\t\t LI TAG:</i></string>
+    <string name="main_li"><![CDATA[<li>...</li>]]></string>
    <string name="li_tag">\n\t\t Explanation:\n
 </string>
    <string name="li_tag1"><![CDATA[\t\tList item. The HTML <li> element (or HTML List Item Element) is used
@@ -783,6 +810,7 @@ element: an ordered list (<ol>), an unordered list (<ul>), or a menu
     <!-- main tag -->
 
     <string name="main"><i>\t\t MAIN TAG:</i></string>
+    <string name="main_main"><![CDATA[<main>...</main>]]></string>
    <string name="main_tag">\n\t\t Explanation:\n
 </string>
    <string name="main_tag1"><![CDATA[\t\t Specifies the main content area of an HTML document. The HTML
@@ -818,6 +846,7 @@ apple tree.</p>\n
     <!-- ol tag -->
 
     <string name="ol"><i>\t\t OL TAG:</i></string>
+    <string name="main_ol"><![CDATA[<ol>...</ol>]]></string>
    <string name="ol_tag">\n\t\t Explanation:\n
 </string>
    <string name="ol_tag1"><![CDATA[\t\tOrdered list. The HTML <ol> Element (or HTML Ordered List Element)
@@ -847,6 +876,7 @@ numerals, letters or Romans numerals or even simple bullets. \n
     <!-- p tag -->
 
     <string name="p"><i>\t\t P TAG:</i></string>
+    <string name="main_p"><![CDATA[<p>...</p>]]></string>
    <string name="p_tag">\n\t\t Explanation:\n
 </string>
    <string name="p_tag1"><![CDATA[\t\tParagraph content. The HTML <p> element (or HTML Paragraph
@@ -874,6 +904,7 @@ Paragraphs are block-level elements. \n
     <!-- pre tag -->
 
     <string name="pre"><i>\t\t PRE TAG:</i></string>
+    <string name="main_pre"><![CDATA[<pre>...</pre>]]></string>
    <string name="pre_tag">\n\t\t Explanation:\n
 </string>
    <string name="pre_tag1"><![CDATA[\t\tA block of preformatted text. The HTML <pre> element (or HTML
@@ -905,6 +936,7 @@ background‐color:lightgreen;\n
     <!-- ul tag -->
 
     <string name="ul"><i>\t\t UL TAG:</i></string>
+    <string name="main_ul"><![CDATA[<ul>...</ul>]]></string>
    <string name="ul_tag">\n\t\t Explanation:\n
 </string>
    <string name="ul_tag1"><![CDATA[\t\tUnordered list. The HTML <ul> element (or HTML Unordered List
@@ -935,6 +967,7 @@ the list is meaningless. \n
     <!-- a tag -->
 
     <string name="ah"><i>\t\t A TAG:</i></string>
+    <string name="main_a"><![CDATA[<a>...</a>]]></string>
    <string name="ah_tag">\n\t\t Explanation:\n
 </string>
    <string name="ah_tag1"><![CDATA[\t\tHyperlink (a hypertext anchor). The HTML Anchor Element (<a> tag)
@@ -962,6 +995,7 @@ type | download | ping | referrerpolicy + global attributes
     <!-- abbr tag -->
 
     <string name="abbr"><i>\t\t ABBR TAG:</i></string>
+    <string name="main_abbr"><![CDATA[<abbr>...</abbr>]]></string>
    <string name="abbr_tag">\n\t\t Explanation:\n
 </string>
    <string name="abbr_tag1"><![CDATA[\t\tAbbreviation or acronym. The <abbr> element (or HTML
@@ -990,6 +1024,7 @@ Language">HTML</abbr></p>
     <!-- b tag -->
 
     <string name="b"><i>\t\t BOLD TAG:</i></string>
+    <string name="main_b"><![CDATA[<b>...</b>]]></string>
    <string name="b_tag">\n\t\t Explanation:\n
 </string>
    <string name="b_tag1"><![CDATA[\t\tStylistically separated text of equal importance, such as a product
@@ -1017,6 +1052,7 @@ level</b> </p>
     <!-- bdl tag -->
 
     <string name="bdl"><i>\t\t BDL TAG:</i></string>
+    <string name="main_bdl"><![CDATA[<bdl>...</bdl>]]></string>
    <string name="bdl_tag">\n\t\t Explanation:\n
 </string>
    <string name="bdl_tag1"><![CDATA[\t\tDefines directional formatting for content. The HTML <bdi> Element
@@ -1044,6 +1080,7 @@ displayed right‐to‐left.</p>
     <!-- bdo tag -->
 
     <string name="bdo"><i>\t\t BDO TAG:</i></string>
+    <string name="main_bdo"><![CDATA[<bdo>...</bdo>]]></string>
    <string name="bdo_tag">\n\t\t Explanation:\n
 </string>
    <string name="bdo_tag1"><![CDATA[\t\tDefines directional formatting for content. The HTML <bdo> Element
@@ -1070,6 +1107,7 @@ left.</bdo></p>\n
     <!-- cite tag -->
 
     <string name="city"><i>\t\t CITE TAG:</i></string>
+    <string name="main_cite"><![CDATA[<cite>...</cite>]]></string>
    <string name="city_tag">\n\t\t Explanation:\n
 </string>
    <string name="city_tag1"><![CDATA[\t\tTitle of a referenced piece of work. The HTML Citation Element
@@ -1095,6 +1133,7 @@ left.</bdo></p>\n
     <!-- code tag -->
 
     <string name="code"><i>\t\t CODE TAG:</i></string>
+    <string name="main_code"><![CDATA[<code>...</code>]]></string>
    <string name="code_tag">\n\t\t Explanation:\n
 </string>
    <string name="code_tag1"><![CDATA[\t\t  \n
@@ -1121,6 +1160,7 @@ Regular text.</p>
     <!-- del tag -->
 
     <string name="del"><i>\t\t DEL TAG:</i></string>
+    <string name="main_del"><![CDATA[<del>...</del>]]></string>
    <string name="del_tag">\n\t\t Explanation:\n
 </string>
    <string name="del_tag1"><![CDATA[\t\tText that has been removed during document editing. The HTML
@@ -1148,6 +1188,7 @@ is the rest of the paragraph.</p><del ><p
     <!-- dfn tag -->
 
     <string name="dfn"><i>\t\t DFN TAG:</i></string>
+    <string name="main_dfn"><![CDATA[<dfn>...</dfn>]]></string>
    <string name="dfn_tag">\n\t\t Explanation:\n
 </string>
    <string name="dfn_tag1"><![CDATA[\t\tDefining instance of a term. The HTML Deတnition Element (<dfn>)
@@ -1173,6 +1214,7 @@ Access</p>
     <!-- em tag -->
 
     <string name="em"><i>\t\t EM TAG:</i></string>
+    <string name="main_em"><![CDATA[<em>...</em>]]></string>
    <string name="em_tag">\n\t\t Explanation:\n
 </string>
    <string name="em_tag1"><![CDATA[\t\tText that should be emphasized. The HTML element emphasis <em>
@@ -1201,6 +1243,7 @@ emphasis. \n
     <!-- i tag -->
 
     <string name="i"><i>\t\t I TAG:</i></string>
+    <string name="main_i"><![CDATA[<i>...</i>]]></string>
    <string name="i_tag">\n\t\t Explanation:\n
 </string>
    <string name="i_tag1"><![CDATA[\t\tText in a alternate voice or mood, such as a technical term. The HTML
@@ -1230,6 +1273,7 @@ literature</p>
     <!-- ins tag -->
 
     <string name="ins"><i>\t\t INS TAG:</i></string>
+    <string name="main_ins"><![CDATA[<ins>...</ins>]]></string>
    <string name="ins_tag">\n\t\t Explanation:\n
 </string>
    <string name="ins_tag1"><![CDATA[\t\tText that should be emphasized. The HTML element emphasis <em>
@@ -1258,6 +1302,7 @@ emphasis. \n
     <!-- kbd tag -->
 
     <string name="kbd"><i>\t\t KBD TAG:</i></string>
+    <string name="main_kbd"><![CDATA[<kbd>...</kbd>]]></string>
    <string name="kbd_tag">\n\t\t Explanation:\n
 </string>
    <string name="kbd_tag1"><![CDATA[\t\tText that should be emphasized. The HTML element emphasis <em>
@@ -1286,6 +1331,7 @@ emphasis. \n
     <!-- mark tag -->
 
     <string name="mark"><i>\t\t MARK TAG:</i></string>
+    <string name="main_mark"><![CDATA[<mark>...</mark>]]></string>
    <string name="mark_tag">\n\t\t Explanation:\n
 </string>
    <string name="mark_tag1"><![CDATA[\t\tText that should be emphasized. The HTML element emphasis <em>
@@ -1314,6 +1360,7 @@ emphasis. \n
     <!-- q tag -->
 
     <string name="q"><i>\t\t Q TAG:</i></string>
+    <string name="main_q"><![CDATA[<q>...</q>]]></string>
    <string name="q_tag">\n\t\t Explanation:\n
 </string>
    <string name="q_tag1"><![CDATA[\t\tText that should be emphasized. The HTML element emphasis <em>
@@ -1342,6 +1389,7 @@ emphasis. \n
     <!-- rp tag -->
 
     <string name="rp"><i>\t\t RP TAG:</i></string>
+    <string name="main_rp"><![CDATA[<rp>...</rp>]]></string>
    <string name="rp_tag">\n\t\t Explanation:\n
 </string>
    <string name="rp_tag1"><![CDATA[\t\tText that should be emphasized. The HTML element emphasis <em>
@@ -1370,6 +1418,7 @@ emphasis. \n
     <!-- rt tag -->
 
     <string name="rt"><i>\t\t RT TAG:</i></string>
+    <string name="main_rt"><![CDATA[<rt>...</rt>]]></string>
    <string name="rt_tag">\n\t\t Explanation:\n
 </string>
    <string name="rt_tag1"><![CDATA[\t\tText that should be emphasized. The HTML element emphasis <em>
@@ -1399,6 +1448,7 @@ emphasis. \n
     <!-- ruby tag -->
 
     <string name="ruby"><i>\t\t RUBY TAG:</i></string>
+    <string name="main_ruby"><![CDATA[<ruby>...</ruby>]]></string>
    <string name="ruby_tag">\n\t\t Explanation:\n
 </string>
    <string name="ruby_tag1"><![CDATA[\t\tContains text with annotations, such as pronunciation hints.
@@ -1428,6 +1478,7 @@ pronunciation of East Asian characters. \n
     <!-- S tag -->
 
     <string name="s"><i>\t\t STRIKE TAG:</i></string>
+    <string name="main_s"><![CDATA[<s>...</s>]]></string>
    <string name="s_tag">\n\t\t Explanation:\n
 </string>
    <string name="s_tag1"><![CDATA[\t\t Strikethrough text that is outdated or no longer accurate. The HTML
@@ -1453,6 +1504,7 @@ line through it. \n
     <!-- Samp tag -->
 
     <string name="samp"><i>\t\t SAMP TAG:</i></string>
+    <string name="main_samp"><![CDATA[<samp>...</samp>]]></string>
    <string name="samp_tag">\n\t\t Explanation:\n
 </string>
    <string name="samp_tag1"><![CDATA[\t\t Sample output of a program. The HTML <samp> element is an
@@ -1480,6 +1532,7 @@ program. \n
     <!-- Small tag -->
 
     <string name="small"><i>\t\t SMALL TAG:</i></string>
+    <string name="main_small"><![CDATA[<small>...</small>]]></string>
    <string name="small_tag">\n\t\t Explanation:\n
 </string>
    <string name="small_tag1"><![CDATA[\t\t  \n
@@ -1505,6 +1558,7 @@ program. \n
     <!-- Span tag -->
 
     <string name="span"><i>\t\t SPAN TAG:</i></string>
+    <string name="main_span"><![CDATA[<span>...</span>]]></string>
    <string name="span_tag">\n\t\t Explanation:\n
 </string>
    <string name="span_tag1"><![CDATA[\t\t Container with no semantic meaning. The HTML <span> element is a
@@ -1534,6 +1588,7 @@ share attribute values, such as lang. \n
     <!-- strong tag -->
 
     <string name="strong"><i>\t\t STRONG TAG:</i></string>
+    <string name="main_strong"><![CDATA[<strong>...</strong>]]></string>
    <string name="strong_tag">\n\t\t Explanation:\n
 </string>
    <string name="strong_tag1"><![CDATA[\t\t Text that is important. The HTML Strong Element (<strong>) gives
@@ -1559,6 +1614,7 @@ text strong importance, and is typically displayed in bold. \n
     <!-- sub tag -->
 
     <string name="sub"><i>\t\t SUB TAG:</i></string>
+    <string name="main_sub"><![CDATA[<sub>...</sub>]]></string>
    <string name="sub_tag">\n\t\t Explanation:\n
 </string>
    <string name="sub_tag1"><![CDATA[\t\t Subscript text. The HTML Subscript Element (<sub>) deတnes a span of
@@ -1586,6 +1642,7 @@ H<sub>2</sub>O</p>
     <!-- sup tag -->
 
     <string name="sup"><i>\t\t SUP TAG:</i></string>
+    <string name="main_sup"><![CDATA[<sup>...</sup>]]></string>
    <string name="sup_tag">\n\t\t Explanation:\n
 </string>
    <string name="sup_tag1"><![CDATA[\t\t Superscript text. The HTML Superscript Element (<sup>) deတnes a
@@ -1612,6 +1669,7 @@ higher, and often smaller, than the main span of text. \n
     <!-- Time tag -->
 
     <string name="time"><i>\t\t TIME TAG:</i></string>
+    <string name="main_time"><![CDATA[<time>...</time>]]></string>
    <string name="time_tag">\n\t\t Explanation:\n
 </string>
    <string name="time_tag1"><![CDATA[\t\t Time defined in a machine readable format. The HTML <time>
@@ -1640,6 +1698,7 @@ information). \n
     <!-- var tag -->
 
     <string name="var"><i>\t\t VAR TAG:</i></string>
+    <string name="main_var"><![CDATA[<var>...</var>]]></string>
    <string name="var_tag">\n\t\t Explanation:\n
 </string>
    <string name="var_tag1"><![CDATA[\t\t Mathematical or programming variable. The HTML Variable Element
@@ -1667,6 +1726,7 @@ programming context. \n
     <!-- wbr tag -->
 
     <string name="wbr"><i>\t\t WBR TAG:</i></string>
+    <string name="main_wbr"><![CDATA[<wbr>...</wbr>]]></string>
    <string name="wbr_tag">\n\t\t Explanation:\n
 </string>
    <string name="wbr_tag1"><![CDATA[\t\t Opportunity for a line break. The HTML element word break
@@ -1696,6 +1756,7 @@ would not otherwise create a break at that location. \n
     <!-- caption tag -->
 
     <string name="caption"><i>\t\t CAPTION TAG:</i></string>
+    <string name="main_caption"><![CDATA[<caption>...</caption>]]></string>
    <string name="caption_tag">\n\t\t Explanation:\n
 </string>
    <string name="caption_tag1"><![CDATA[\t\tTitle of a table. The HTML <caption> Element (or HTML Table Caption
@@ -1727,6 +1788,7 @@ Element) represents the title of a table. \n
     <!-- col tag -->
 
     <string name="col"><i>\t\t COL TAG:</i></string>
+    <string name="main_col"><![CDATA[<col>...</col>]]></string>
    <string name="col_tag">\n\t\t Explanation:\n
 </string>
    <string name="col_tag1"><![CDATA[\t\t Columns in a table. The HTML Table Column Element (<col>) deတnes a
@@ -1758,6 +1820,7 @@ using table format]]>\n
     <!-- colgroup tag -->
 
     <string name="colgroup"><i>\t\t COLGROUP TAG:</i></string>
+    <string name="main_colgroup"><![CDATA[<colgroup>...</colgroup>]]></string>
    <string name="colgroup_tag">\n\t\t Explanation:\n
 </string>
    <string name="colgroup_tag1"><![CDATA[\t\tDefines a group of columns in a table. The HTML Table Column Group
@@ -1797,6 +1860,7 @@ Element (<colgroup>) deတnes a group of columns within a table. \n
     <!-- table tag -->
 
     <string name="table"><i>\t\t TABLE TAG:</i></string>
+    <string name="main_table"><![CDATA[<table>...</table>]]></string>
    <string name="table_tag">\n\t\t Explanation:\n
 </string>
    <string name="table_tag1"><![CDATA[\t\tTable of multi-dimensional data. The HTML Table Element (<table>)
@@ -1828,6 +1892,7 @@ or more. \n
     <!-- tbody tag -->
 
     <string name="tbody"><i>\t\t TBODY TAG:</i></string>
+    <string name="main_tbody"><![CDATA[<tbody>...</tbody>]]></string>
    <string name="tbody_tag">\n\t\t Explanation:\n
 </string>
    <string name="tbody_tag1"><![CDATA[\t\\n
@@ -1866,6 +1931,7 @@ or more. \n
     <!-- td tag -->
 
     <string name="td"><i>\t\t TD TAG:</i></string>
+    <string name="main_td"><![CDATA[<td>...</td>]]></string>
    <string name="td_tag">\n\t\t Explanation:\n
 </string>
    <string name="td_tag1"><![CDATA[\t\t Table cell. The Table cell HTML element (<td>) deတnes a cell of a table
@@ -1896,6 +1962,7 @@ that contains data. It participates in the table model. \n
     <!-- tfoot tag -->
 
     <string name="tfoot"><i>\t\t TFOOT TAG:</i></string>
+    <string name="main_tfoot"><![CDATA[<tfoot>...</tfoot>]]></string>
    <string name="tfoot_tag">\n\t\t Explanation:\n
 </string>
    <string name="tfoot_tag1"><![CDATA[\t\tContains rows with summary of data. The HTML Table Foot Element
@@ -1930,6 +1997,7 @@ that contains data. It participates in the table model. \n
     <!-- th tag -->
 
     <string name="th"><i>\t\t TH TAG:</i></string>
+    <string name="main_th"><![CDATA[<th>...</th>]]></string>
    <string name="th_tag">\n\t\t Explanation:\n
 </string>
    <string name="th_tag1"><![CDATA[\t\tTable heading. The HTML element table header cell <th> deတnes a
@@ -1966,10 +2034,11 @@ the header refers to is deတned by the scope and headers attribute.\n
     <!-- thead tag -->
 
     <string name="thead"><i>\t\t THEAD TAG:</i></string>
+    <string name="main_thead"><![CDATA[<thead>...</thead>]]></string>
    <string name="thead_tag">\n\t\t Explanation:\n
 </string>
    <string name="thead_tag1"><![CDATA[\t\tContains rows with table headings. The HTML Table Head Element
-(<thead>) deတnes a set of rows deတning the head of the columns of
+(<thead>) defines a set of rows deတning the head of the columns of
 the table. \n
 ]]></string>
     <string name="thead_attr">Attributes (modifiers):\n\n<![CDATA[global attributes
@@ -2007,6 +2076,7 @@ the table. \n
     <!-- TR tag -->
 
     <string name="tr"><i>\t\t TR TAG:</i></string>
+    <string name="main_tr"><![CDATA[<tr>...</tr>]]></string>
    <string name="tr_tag">\n\t\t Explanation:\n
 </string>
    <string name="tr_tag1"><![CDATA[\t\tA row of cells in a table. The HTML element table row <tr> deတnes a
@@ -2038,6 +2108,7 @@ row of cells in a table. Those can be a mix of <td> and <th> elements. \n
     <!-- button tag -->
 
     <string name="button"><i>\t\t BUTTON TAG:</i></string>
+    <string name="main_button"><![CDATA[<button>...</button>]]></string>
    <string name="button_tag">\n\t\t Explanation:\n
 </string>
    <string name="button_tag1"><![CDATA[\t\t A button. The HTML <button> Element represents a clickable button. \n
@@ -2066,6 +2137,7 @@ type | value + global attributes
     <!-- data tag -->
 
     <string name="data"><i>\t\t DATA TAG:</i></string>
+    <string name="main_data"><![CDATA[<data>...</data>]]></string>
    <string name="data_tag">\n\t\t Explanation:\n
 </string>
    <string name="data_tag1"><![CDATA[\t\tAllows for machine-readable data to be provided. The HTML <data>
@@ -2101,6 +2173,7 @@ Ketchup</data></li>\n
     <!-- datalist tag -->
 
     <string name="datalist"><i>\t\t DATALIST TAG:</i></string>
+    <string name="main_datalist"><![CDATA[<datalist>...</datalist>]]></string>
    <string name="datalist_tag">\n\t\t Explanation:\n
 </string>
    <string name="datalist_tag1"><![CDATA[\t\tDeတne sets of options. The HTML Datalist Element (<datalist>)
@@ -2135,6 +2208,7 @@ available for other controls.\n
     <!-- fieldlist tag -->
 
     <string name="fieldlist"><i>\t\t FIELDLIST TAG:</i></string>
+    <string name="main_fieldlist"><![CDATA[<fieldlist>...</fieldlist>]]></string>
    <string name="fieldlist_tag">\n\t\t Explanation:\n
 </string>
    <string name="fieldlist_tag1"><![CDATA[\t\tSet of form controls grouped by theme. The HTML <တeldset> element
@@ -2167,6 +2241,7 @@ web form.\n
     <!-- form tag -->
 
     <string name="form"><i>\t\t FORM TAG:</i></string>
+    <string name="main_form"><![CDATA[<form>...</form>]]></string>
    <string name="form_tag">\n\t\t Explanation:\n
 </string>
    <string name="form_tag1"><![CDATA[\t\tUsed to create an HTML form for user input. The HTML <form>
@@ -2203,6 +2278,7 @@ method | target (_self | _blank | _parent | _top) + global attributes
     <!-- input tag -->
 
     <string name="input"><i>\t\t INPUT TAG:</i></string>
+    <string name="main_input"><![CDATA[<input>...</input>]]></string>
    <string name="input_tag">\n\t\t Explanation:\n
 </string>
    <string name="input_tag1"><![CDATA[\t\t Generic form input. The HTML element <input> is used to create
@@ -2236,6 +2312,7 @@ selectionDirection + global attributes
     <!-- label tag -->
 
     <string name="label"><i>\t\t LABEL TAG:</i></string>
+    <string name="main_label"><![CDATA[<label>...</label>]]></string>
    <string name="label_tag">\n\t\t Explanation:\n
 </string>
    <string name="label_tag1"><![CDATA[\t\tCaption for a form control. The HTML Label Element (<label>)
@@ -2264,6 +2341,7 @@ the <label> element, or by using the for attribute. \n
     <!-- legend tag -->
 
     <string name="legend"><i>\t\t LEGEND TAG:</i></string>
+    <string name="main_legend"><![CDATA[<legend>...</legend>]]></string>
    <string name="legend_tag">\n\t\t Explanation:\n
 </string>
    <string name="legend_tag1"><![CDATA[\t\tDefine a name for a fieldset. The HTML <legend> Element (or HTML
@@ -2297,6 +2375,7 @@ parent <fieldset>. \n
     <!-- meter tag -->
 
     <string name="meter"><i>\t\t METER TAG:</i></string>
+    <string name="main_meter"><![CDATA[<meter>...</meter>]]></string>
    <string name="meter_tag">\n\t\t Explanation:\n
 </string>
    <string name="meter_tag1"><![CDATA[\t\t Control for entering a numeric value in a known range. The HTML
@@ -2325,6 +2404,7 @@ value="350">350 degrees</meter>.</p>
     <!-- OPTgroup tag -->
 
     <string name="optgroup"><i>\t\t OPTGROUP TAG:</i></string>
+    <string name="main_optgroup"><![CDATA[<optgroup>...</optgroup>]]></string>
    <string name="optgroup_tag">\n\t\t Explanation:\n
 </string>
    <string name="optgroup_tag1"><![CDATA[\t\t Group of option. In a Web form, the HTML <optgroup> element
@@ -2358,6 +2438,7 @@ creates a grouping of options within a <select> element. \n
     <!-- option tag -->
 
     <string name="option"><i>\t\t OPTION TAG:</i></string>
+    <string name="main_option"><![CDATA[<option>...</option>]]></string>
    <string name="option_tag">\n\t\t Explanation:\n
 </string>
    <string name="option_tag1"><![CDATA[\t\t Single option within a select control. In a Web form, the HTML
@@ -2390,6 +2471,7 @@ within a <select>, an <optgroup> or a <datalist> HTML5 element. \n
     <!-- OUTPUT tag -->
 
     <string name="output"><i>\t\t OUTPUT TAG:</i></string>
+    <string name="main_output"><![CDATA[<output>...</output>]]></string>
    <string name="output_tag">\n\t\t Explanation:\n
 </string>
    <string name="output_tag1"><![CDATA[\t\t Contains the results of a calculation. The HTML <output> element
@@ -2423,6 +2505,7 @@ nt(b.value)">\n
     <!-- progress tag -->
 
     <string name="progress"><i>\t\t PROGRESS TAG:</i></string>
+    <string name="main_progress"><![CDATA[<progress>...</progress>]]></string>
    <string name="progress_tag">\n\t\t Explanation:\n
 </string>
    <string name="progress_tag1"><![CDATA[\t\t   \n
@@ -2448,6 +2531,7 @@ nt(b.value)">\n
     <!-- select tag -->
 
     <string name="select"><i>\t\t SELECT TAG:</i></string>
+    <string name="main_select"><![CDATA[<select>...</select>]]></string>
    <string name="select_tag">\n\t\t Explanation:\n
 </string>
    <string name="select_tag1"><![CDATA[\t\t Control for selecting from multiple options. The HTML select
@@ -2482,6 +2566,7 @@ can be pre-selected for the user. \n
     <!-- textarea tag -->
 
     <string name="textarea"><i>\t\t TEXTAREA TAG:</i></string>
+    <string name="main_textarea"><![CDATA[<textarea>...</textarea>]]></string>
    <string name="textarea_tag">\n\t\t Explanation:\n
 </string>
    <string name="textarea_tag1"><![CDATA[\t\t Multiline free-form text input. The HTML <textarea> element
@@ -2511,6 +2596,7 @@ cols="50">Write something here</textarea>
     <!-- embed tag -->
 
     <string name="embed"><i>\t\t EMBED TAG:</i></string>
+    <string name="main_embed"><![CDATA[<embed>...</embed>]]></string>
    <string name="embed_tag">\n\t\t Explanation:\n
 </string>
    <string name="embed_tag1"><![CDATA[\t\t Integration point for an external (typically non-HTML) application or
@@ -2538,6 +2624,7 @@ width="640" height="480">
     <!-- iframe tag -->
 
     <string name="iframe"><i>\t\t IFRAME TAG:</i></string>
+    <string name="main_iframe"><![CDATA[<iframe>...</iframe>]]></string>
    <string name="iframe_tag">\n\t\t Explanation:\n
 </string>
    <string name="iframe_tag1"><![CDATA[\t\t Nested browser frame. The HTML Inline Frame Element (<iframe>)
@@ -2577,6 +2664,7 @@ example" width="400" height="300">
     <!-- img tag -->
 
     <string name="img"><i>\t\t IMG TAG:</i></string>
+    <string name="main_img"><![CDATA[<img>...</img>]]></string>
    <string name="img_tag">\n\t\t Explanation:\n
 </string>
    <string name="img_tag1"><![CDATA[\t\t An image. The HTML <img> element represents an image in the
@@ -2605,6 +2693,7 @@ referrerpolicy | sizes | srcset + global attributes
     <!-- object tag -->
 
     <string name="object"><i>\t\t OBJECT TAG:</i></string>
+    <string name="main_object"><![CDATA[<object>...</object>]]></string>
    <string name="object_tag">\n\t\t Explanation:\n
 </string>
    <string name="object_tag1"><![CDATA[\t\tExternal resource such as an image, iframe or plugin. The HTML
@@ -2637,6 +2726,7 @@ shockwave‐flash">\n
     <!-- PARAM tag -->
 
     <string name="param"><i>\t\t PARAM TAG:</i></string>
+    <string name="main_param"><![CDATA[<param>...</param>]]></string>
    <string name="param_tag">\n\t\t Explanation:\n
 </string>
    <string name="param_tag1"><![CDATA[\t\t Parameters for the parent object. The HTML <param> Element (or
@@ -2666,6 +2756,7 @@ shockwave‐flash">\n
     <!-- source tag -->
 
     <string name="source"><i>\t\t SOURCE TAG:</i></string>
+    <string name="main_source"><![CDATA[<source>...</source>]]></string>
    <string name="source_tag">\n\t\t Explanation:\n
 </string>
    <string name="source_tag1"><![CDATA[\t\t Alternative sources for parent video or audio elements. The HTML
@@ -2717,6 +2808,7 @@ srclang="en" label="Key Stage 3">\n
     <!-- AREA tag -->
 
     <string name="area"><i>\t\t AREA TAG:</i></string>
+    <string name="main_area"><![CDATA[<area>...</area>]]></string>
    <string name="area_tag">\n\t\t Explanation:\n
 </string>
    <string name="area_tag1"><![CDATA[\t\t Hyperlink with some text and a corresponding area on an image
@@ -2748,6 +2840,7 @@ href="another.htm" /> \n
     <!--audio  tag -->
 
     <string name="audio"><i>\t\t AUDIO TAG:</i></string>
+    <string name="main_audio"><![CDATA[<audio>...</audio>]]></string>
    <string name="audio_tag">\n\t\t Explanation:\n
 </string>
    <string name="audio_tag1"><![CDATA[\t\t Sound or audio stream. The HTML <audio> element is used to embed
@@ -2782,6 +2875,7 @@ les/2926/=AudioTest_(1).ogg" autoplay>\n
     <!-- map tag -->
 
     <string name="map"><i>\t\t MAP TAG:</i></string>
+    <string name="main_map"><![CDATA[<map>...</map>]]></string>
    <string name="map_tag">\n\t\t Explanation:\n
 </string>
    <string name="map_tag1"><![CDATA[\t\t Image map for adding hyperlinks to parts of an image. The HTML
@@ -2813,6 +2907,7 @@ href="another.htm" />\n
     <!-- track tag -->
 
     <string name="track"><i>\t\t TRACK TAG:</i></string>
+    <string name="main_track"><![CDATA[<track>...</track>]]></string>
    <string name="track_tag">\n\t\t Explanation:\n
 </string>
    <string name="track_tag1"><![CDATA[\t\t Speciတes external timing track for media element. The HTML <track>
@@ -2851,6 +2946,7 @@ srclang="en" label="Key Stage 3">\n
     <!-- video tag -->
 
     <string name="video"><i>\t\t VIDEO TAG:</i></string>
+    <string name="main_video"><![CDATA[<video>...</video>]]></string>
    <string name="video_tag">\n\t\t Explanation:\n
 </string>
    <string name="video_tag1"><![CDATA[\t\t Used for playing videos or movies. Use the HTML <video> element to
@@ -2880,6 +2976,7 @@ bu†ered | crossorigin | muted | played + global attributes
     <!-- details tag -->
 
     <string name="detail"><i>\t\t DETAILS TAG:</i></string>
+    <string name="main_detail"><![CDATA[<detail>...</detail>]]></string>
    <string name="detail_tag">\n\t\t Explanation:\n
 </string>
    <string name="detail_tag1"><![CDATA[\t\tContains additional information, such as the contents of an
@@ -2909,6 +3006,7 @@ information. \n
     <!-- dialog tag -->
 
     <string name="dialog"><i>\t\t DIALOG TAG:</i></string>
+    <string name="main_dialog"><![CDATA[<dialog>...</dialog>]]></string>
    <string name="dialog_tag">\n\t\t Explanation:\n
 </string>
    <string name="dialog_tag1"><![CDATA[\t\tThe HTML <dialog> element represents a dialog box or other
@@ -2939,6 +3037,7 @@ the attribute method="dialog". \n
     <!-- menu tag -->
 
     <string name="manu"><i>\t\t MENU TAG:</i></string>
+    <string name="main_menu"><![CDATA[<manu>...</manu>]]></string>
    <string name="menu_tag">\n\t\t Explanation:\n
 </string>
    <string name="menu_tag1"><![CDATA[\t\tSet of commands. The HTML <menu> element represents a group of
@@ -2973,6 +3072,7 @@ button after it has been clicked. \n
     <!-- summary tag -->
 
     <string name="summary"><i>\t\t SUMMARY TAG:</i></string>
+    <string name="main_summary"><![CDATA[<summary>...</summary>]]></string>
    <string name="summary_tag">\n\t\t Explanation:\n
 </string>
    <string name="summary_tag1"><![CDATA[\t\tCaption of a details element. The HTML summary element
@@ -3001,6 +3101,7 @@ content of a <details> element. \n
     <!-- canvas tag -->
 
     <string name="canvas"><i>\t\t CANVAS TAG:</i></string>
+    <string name="main_canvas"><![CDATA[<canvas>...</canvas>]]></string>
    <string name="canvas_tag">\n\t\t Explanation:\n
 </string>
    <string name="canvas_tag1"><![CDATA[\t\t Bitmap which is editable by client side scripts. The HTML <canvas>
@@ -3031,6 +3132,7 @@ what your canvas displays.\n</canvas>\n
     <!-- noscript tag -->
 
     <string name="noscript"><i>\t\t NOSCRIPT TAG:</i></string>
+    <string name="main_noscript"><![CDATA[<noscript>...</noscript>]]></string>
    <string name="noscript_tag">\n\t\t Explanation:\n
 </string>
    <string name="noscript_tag1"><![CDATA[\t\tContains elements that are part of the document only if scripting is
@@ -3063,6 +3165,7 @@ Link</a>\n
     <!-- script tag -->
 
     <string name="script"><i>\t\t SCRIPT TAG:</i></string>
+    <string name="main_script"><![CDATA[<script>...</script>]]></string>
    <string name="script_tag">\n\t\t Explanation:\n
 </string>
    <string name="script_tag1"><![CDATA[\t\t Inline or linked client side scripts. The HTML Script Element (<script>)
